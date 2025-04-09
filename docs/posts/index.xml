@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 台灣房市每日洞見</title>
+    <link>https://ZongliangLee.github.io/tw-real-estate-insights/posts/</link>
+    <description>Recent content in Posts on 台灣房市每日洞見</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 10 Apr 2025 00:02:33 +0800</lastBuildDate>
+    <atom:link href="https://ZongliangLee.github.io/tw-real-estate-insights/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>房市動態：測試 Python 執行</title>
+      <link>https://ZongliangLee.github.io/tw-real-estate-insights/posts/insight-2025-04-10/</link>
+      <pubDate>Thu, 10 Apr 2025 00:02:33 +0800</pubDate>
+      <guid>https://ZongliangLee.github.io/tw-real-estate-insights/posts/insight-2025-04-10/</guid>
+      <description>&lt;p&gt;這是一篇測試文章，確認 Python 在 GitHub Actions 中執行成功。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+name: Daily Insight Update
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天 UTC 00:00（台灣 08:00）
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+    - name: Install dependencies
+      run: pip install requests
+    - name: Generate insight
+      run: python generate_insight.py
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: "latest"
+    - name: Build site
+      run: hugo
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs

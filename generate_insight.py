@@ -11,6 +11,9 @@ def generate_insight():
 def save_insight():
     date, title, content = generate_insight()
     filename = f"content/posts/insight-{date[:10]}.md"
+    # 確保目錄存在
+    os.makedirs("content/posts", exist_ok=True)
+    print(f"Ensured directory exists: content/posts")
     # 使用多行字串確保格式完整
     markdown_content = f"""---
 title: "{title}"

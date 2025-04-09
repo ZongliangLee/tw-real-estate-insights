@@ -1,7 +1,7 @@
 name: Daily Insight Update
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天 UTC 00:00（台灣 08:00）
+    - cron: "0 0 * * *"
   workflow_dispatch:
 jobs:
   build:
@@ -21,9 +21,11 @@ jobs:
       with:
         hugo-version: "latest"
     - name: Build site
-      run: hugo
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+      run: hugo --minify
+    - name: Commit and push to main
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        git add docs/
+        git commit -m "Update site with new insight" || echo "No changes to commit"
+        git push origin main

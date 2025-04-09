@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -16,12 +18,16 @@ jobs:
       run: pip install requests
     - name: Generate insight
       run: python generate_insight.py
+    - name: Check generated file
+      run: cat content/posts/insight-*.md || echo "No insight file found"
     - name: Set up Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "latest"
     - name: Build site
       run: hugo --minify
+    - name: Check built site
+      run: ls -l docs/ || echo "Docs folder empty"
     - name: Commit and push to main
       run: |
         git config user.name "GitHub Actions Bot"

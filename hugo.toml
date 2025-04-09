@@ -2,3 +2,6 @@ baseURL = "https://ZongliangLee.github.io/tw-real-estate-insights/"
 languageCode = "zh-tw"
 title = "台灣房市每日洞見"
 theme = "ananke"
+publishDir = "docs"  # 如果有這行，說明輸出到 /docs
+
+

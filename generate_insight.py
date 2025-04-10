@@ -33,6 +33,7 @@ def save_insight():
 title: "{title}"
 date: {date}
 draft: false
+showChart: true
 ---
 {content}
 """

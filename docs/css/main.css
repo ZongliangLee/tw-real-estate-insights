@@ -1,0 +1,38 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-preview {
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+  }
+  
+  .post-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .post-meta {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .post-excerpt {
+    margin: 0.5em 0;
+  }
+  
+  .read-more {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+    max-width: 100%;
+  }

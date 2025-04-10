@@ -1,58 +1,138 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ if .Params.showChart }}
-    <!-- 創建單一的 canvas 元素 -->
-    <canvas id="myChart"></canvas>
-    <!-- 將文章發布日期格式化為 YYYY_MM_DD -->
-    {{ $dateStr := .Date.Format "2006_01_02" }}
-    <!-- 構造 JSON 檔案名稱 -->
-    {{ $dataFile := printf "daily_data_%s" $dateStr }}
-    <!-- 載入 JSON 數據 -->
-    {{ $jsonData := index .Site.Data $dataFile }}
-    {{ if $jsonData }}
-      <script>
-        // 將 Hugo 的 JSON 數據嵌入到 JavaScript 變量中
-        var chartData = JSON.parse('{{ $jsonData | jsonify }}');
-        if (Array.isArray(chartData)) {
-          var labels = chartData.map(item => item.displayName);
-          var data = chartData.map(item => item.totalPrice);
-          // Proceed with chart rendering
-        } else {
-          console.error('chartData is not an array');
-        }
-        document.addEventListener('DOMContentLoaded', function() {
-          var ctx = document.getElementById('myChart').getContext('2d');
-          var chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-              // 提取 displayName 作為 X 軸標籤
-              labels: chartData.map(item => item.displayName),
-              datasets: [{
-                label: '房屋價格(萬)',
-                // 提取 totalPrice 作為數據
-                data: chartData.map(item => item.totalPrice),
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
-              }]
-            },
-            options: {
-              responsive: true,
-              scales: {
-                x: {
-                  ticks: {
-                    maxRotation: 45,
-                    minRotation: 45
+  <div class="container">
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <p class="post-meta">發布日期：{{ .Date.Format "2006-01-02" }}</p>
+      </header>
+      <div class="post-content">
+        {{ .Content }}
+      </div>
+      {{ if .Params.showChart }}
+        <!-- 創建單一的 canvas 元素 -->
+        <div class="chart-container">
+          <canvas id="myChart"></canvas>
+        </div>
+        <!-- 將文章發布日期格式化為 YYYY_MM_DD -->
+        {{ $dateStr := .Date.Format "2006_01_02" }}
+        <!-- 構造當日 JSON 檔案名稱 -->
+        {{ $dataFile := printf "daily_data_%s" $dateStr }}
+        <!-- 載入當日和歷史 JSON 數據 -->
+        {{ $todayData := index .Site.Data $dataFile }}
+        {{ $historyData := .Site.Data.history_data }}
+        {{ if $todayData }}
+          <script>
+            // 將 Hugo 的 JSON 數據嵌入到 JavaScript 變量中
+            var todayData = JSON.parse('{{ $todayData | jsonify }}');
+            var historyData = JSON.parse('{{ $historyData | jsonify }}');
+
+            document.addEventListener('DOMContentLoaded', function() {
+              if (Array.isArray(todayData)) {
+                // 準備圖表數據
+                var labels = todayData.map(item => item.displayName);
+                var todayPrices = todayData.map(item => item.totalPrice);
+                var backgroundColors = [];
+                var priceDifferences = [];
+
+                // 與歷史數據比較
+                todayData.forEach((todayItem, index) => {
+                  var todayHouseNo = String(todayItem.houseNo).trim();
+                  // 查找該房屋在歷史數據中的最新記錄
+                  var historyItems = historyData && Array.isArray(historyData) ? historyData.filter(item => String(item.houseNo).trim() === todayHouseNo) : [];
+                  // 按日期排序，獲取最新記錄
+                  historyItems.sort((a, b) => new Date(b.updatedDate) - new Date(a.updatedDate));
+                  var latestHistoryItem = historyItems.length > 0 ? historyItems[0] : null;
+                  var historyPrice = latestHistoryItem ? latestHistoryItem.totalPrice : null;
+
+                  // 計算價差
+                  var priceDiff = historyPrice !== null ? todayItem.totalPrice - historyPrice : null;
+                  priceDifferences.push(priceDiff);
+
+                  // 根據價格變動設置顏色
+                  if (historyPrice !== null) {
+                    if (todayItem.totalPrice > historyPrice) {
+                      // 漲價：紅色
+                      backgroundColors.push('rgba(255, 99, 132, 0.5)');
+                    } else if (todayItem.totalPrice < historyPrice) {
+                      // 跌價：綠色
+                      backgroundColors.push('rgba(75, 192, 192, 0.5)');
+                    } else {
+                      // 價格不變：灰色
+                      backgroundColors.push('rgba(128, 128, 128, 0.5)');
+                    }
+                  } else {
+                    // 無歷史數據：使用默認顏色（藍色）
+                    backgroundColors.push('rgba(54, 162, 235, 0.5)');
                   }
-                }
+                });
+
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var chart = new Chart(ctx, {
+                  type: 'bar',
+                  data: {
+                    labels: labels,
+                    datasets: [
+                      {
+                        label: '價格(萬)',
+                        data: todayPrices,
+                        backgroundColor: backgroundColors,
+                        borderColor: backgroundColors.map(color => color.replace('0.5', '1')),
+                        borderWidth: 1,
+                        barPercentage: 0.8,
+                        categoryPercentage: 0.9
+                      }
+                    ]
+                  },
+                  options: {
+                    responsive: true,
+                    scales: {
+                      x: {
+                        ticks: {
+                          maxRotation: 45,
+                          minRotation: 45
+                        }
+                      },
+                      y: {
+                        beginAtZero: true
+                      }
+                    },
+                    plugins: {
+                      tooltip: {
+                        callbacks: {
+                          label: function(context) {
+                            var index = context.dataIndex;
+                            var priceDiff = priceDifferences[index];
+                            var todayPrice = context.raw;
+                            var label = `價格: ${todayPrice} 萬`;
+                            if (priceDiff !== null) {
+                              var diffText = priceDiff >= 0 ? `+${priceDiff}` : `${priceDiff}`;
+                              label += `, 價差: ${diffText} 萬`;
+                            }
+                            return label;
+                          }
+                        }
+                      }
+                    },
+                    onClick: (event, elements) => {
+                      if (elements.length > 0) {
+                        var index = elements[0].index;
+                        var shareURL = todayData[index].shareURL;
+                        if (shareURL) {
+                          window.open(shareURL, '_blank');
+                        }
+                      }
+                    }
+                  }
+                });
+              } else {
+                console.error('todayData is not an array');
               }
-            }
-          });
-        });
-      </script>
-    {{ else }}
-      <p>無法載入圖表數據</p>
-    {{ end }}
-  {{ end }}
+            });
+          </script>
+        {{ else }}
+          <p>無法載入圖表數據</p>
+        {{ end }}
+      {{ end }}
+    </article>
+  </div>
 {{ end }}

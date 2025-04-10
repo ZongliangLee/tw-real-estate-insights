@@ -1,20 +1,58 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  <canvas id="myChart"></canvas>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var ctx = document.getElementById('myChart').getContext('2d');
-      var chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: ['A', 'B', 'C'],
-          datasets: [{
-            label: '測試數據',
-            data: [1, 2, 3]
-          }]
+  {{ if .Params.showChart }}
+    <!-- 創建單一的 canvas 元素 -->
+    <canvas id="myChart"></canvas>
+    <!-- 將文章發布日期格式化為 YYYY_MM_DD -->
+    {{ $dateStr := .Date.Format "2006_01_02" }}
+    <!-- 構造 JSON 檔案名稱 -->
+    {{ $dataFile := printf "daily_data_%s" $dateStr }}
+    <!-- 載入 JSON 數據 -->
+    {{ $jsonData := index .Site.Data $dataFile }}
+    {{ if $jsonData }}
+      <script>
+        // 將 Hugo 的 JSON 數據嵌入到 JavaScript 變量中
+        var chartData = JSON.parse('{{ $jsonData | jsonify }}');
+        if (Array.isArray(chartData)) {
+          var labels = chartData.map(item => item.displayName);
+          var data = chartData.map(item => item.totalPrice);
+          // Proceed with chart rendering
+        } else {
+          console.error('chartData is not an array');
         }
-      });
-    });
-  </script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var ctx = document.getElementById('myChart').getContext('2d');
+          var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              // 提取 displayName 作為 X 軸標籤
+              labels: chartData.map(item => item.displayName),
+              datasets: [{
+                label: '房屋價格(萬)',
+                // 提取 totalPrice 作為數據
+                data: chartData.map(item => item.totalPrice),
+                backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+              }]
+            },
+            options: {
+              responsive: true,
+              scales: {
+                x: {
+                  ticks: {
+                    maxRotation: 45,
+                    minRotation: 45
+                  }
+                }
+              }
+            }
+          });
+        });
+      </script>
+    {{ else }}
+      <p>無法載入圖表數據</p>
+    {{ end }}
+  {{ end }}
 {{ end }}

@@ -1,6 +1,6 @@
 import sqlite3
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def get_db_connection():
     db_path = 'house.db'  # 替換為你的 SQLite 數據庫路徑
@@ -11,6 +11,8 @@ def get_db_connection():
 def generate_daily_data():
     conn = get_db_connection()
     today = datetime.now().strftime('%Y-%m-%d')
+    yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+    today_filename = today.replace('-', '_')  # 將日期格式從 2025-04-10 改為 2025_04_10
 
     # 提取當日更新的房價波動物件
     cursor = conn.execute("""
@@ -33,12 +35,13 @@ def generate_daily_data():
             "displayName": row["displayName"]
         })
 
-    # 保存到 Hugo 的 data/ 目錄
-    with open('data/daily_data.json', 'w', encoding='utf-8') as f:
+    # 修改保存路徑，加入日期
+    output_path = f'data/daily_data_{today_filename}.json'
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(daily_data, f, ensure_ascii=False, indent=2)
 
     conn.close()
-    print(f"Generated daily_data.json with {len(daily_data)} entries.")
+    print(f"Generated {output_path} with {len(daily_data)} entries.")
 
 if __name__ == "__main__":
     generate_daily_data()

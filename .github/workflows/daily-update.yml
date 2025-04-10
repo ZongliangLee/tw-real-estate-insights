@@ -15,7 +15,7 @@ jobs:
       with:
         python-version: "3.x"
     - name: Install dependencies
-      run: pip install requests
+      run: pip install requests beautifulsoup4
     - name: Generate insight
       run: python generate_insight.py
     - name: Check generated file
@@ -27,11 +27,11 @@ jobs:
     - name: Build site
       run: hugo --minify
     - name: Check built site
-      run: ls -l docs/ || echo "Docs folder empty"
+      run: ls -l docs/ && test -f docs/index.html && echo "index.html exists" || echo "index.html missing"
     - name: Commit and push to main
       run: |
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
-        git add docs/
+        git add docs/ content/posts/
         git commit -m "Update site with new insight" || echo "No changes to commit"
         git push origin main

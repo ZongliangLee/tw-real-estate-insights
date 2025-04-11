@@ -429,6 +429,9 @@ def generate_daily_data_endpoint():
         if repo.active_branch.name != 'main':
             repo.git.checkout('main')
 
+        # 拉取遠端更改，避免推送失敗
+        repo.git.pull('origin', 'main')
+
         # 添加 data/daily_data_YYYY_MM_DD.json、data/history_data.json 和 house.db
         repo.index.add([daily_file_path, history_file_path, "house.db"])
 
@@ -438,7 +441,7 @@ def generate_daily_data_endpoint():
 
         # 推送到遠端儲存庫的 main 分支
         origin = repo.remote(name='origin')
-        origin.push(refspec='main:main')  # 明確指定推送至 main 分支
+        origin.push(refspec='main:main')
 
         # 觸發 Daily Insight Update：添加一個空的提交到 content/posts/
         dummy_file = "content/posts/dummy.txt"
@@ -447,7 +450,7 @@ def generate_daily_data_endpoint():
             f.write(f"Updated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         repo.index.add([dummy_file])
         repo.index.commit("Trigger Daily Insight Update")
-        origin.push(refspec='main:main')  # 再次推送至 main 分支
+        origin.push(refspec='main:main')
 
         return jsonify({
             "message": "Daily and history data generated, committed, and workflow triggered successfully.",

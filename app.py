@@ -438,9 +438,11 @@ def generate_daily_data_endpoint():
         repo.index.commit(commit_message)
 
         # 拉取遠端更改，避免推送失敗
-        print("debug: before stash")
+        print("debug: before 1st stash")
         repo.git.stash('save', '-u')
+        print("debug: before 2nd stash")
         repo.git.stash()
+        print("debug: before pull")
         repo.git.pull('origin', 'main')
 
         # 推送到遠端儲存庫的 main 分支

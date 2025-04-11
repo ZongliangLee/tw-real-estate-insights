@@ -443,14 +443,14 @@ def generate_daily_data_endpoint():
         origin = repo.remote(name='origin')
         origin.push(refspec='main:main')
 
-        # 觸發 Daily Insight Update：添加一個空的提交到 content/posts/
-        dummy_file = "content/posts/dummy.txt"
-        os.makedirs("content/posts", exist_ok=True)
-        with open(dummy_file, "a") as f:
-            f.write(f"Updated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        repo.index.add([dummy_file])
-        repo.index.commit("Trigger Daily Insight Update")
-        origin.push(refspec='main:main')
+        # # 觸發 Daily Insight Update：添加一個空的提交到 content/posts/
+        # dummy_file = "content/posts/dummy.txt"
+        # os.makedirs("content/posts", exist_ok=True)
+        # with open(dummy_file, "a") as f:
+        #     f.write(f"Updated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        # repo.index.add([dummy_file])
+        # repo.index.commit("Trigger Daily Insight Update")
+        # origin.push(refspec='main:main')
 
         return jsonify({
             "message": "Daily and history data generated, committed, and workflow triggered successfully.",

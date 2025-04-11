@@ -439,7 +439,7 @@ def generate_daily_data_endpoint():
 
         # 拉取遠端更改，避免推送失敗
         print("debug: before stash")
-        repo.git.stash()
+        repo.git.stash('save', '-u')
         repo.git.pull('origin', 'main')
 
         # 推送到遠端儲存庫的 main 分支

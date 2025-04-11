@@ -7,6 +7,8 @@ import os
 import sqlite3
 import json
 from generate_insight import generate_insight, save_insight
+from generate_daily_and_history_data import generate_daily_and_history_data
+from git import Repo
 
 
 app = Flask(__name__, static_folder='vue-app/dist', static_url_path='')
@@ -403,7 +405,58 @@ def generate_insight_endpoint():
         return jsonify(result), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route('/api/generate-daily-data', methods=['POST'])
+def generate_daily_data_endpoint():
+    try:
+        # 執行 generate_daily_and_history_data.py
+        generate_daily_and_history_data()
 
+        # 獲取當前日期
+        today = datetime.now().strftime('%Y-%m-%d')
+        today_filename = today.replace('-', '_')
+        daily_file_path = f"data/daily_data_{today_filename}.json"
+        history_file_path = "data/history_data.json"
+
+        # 提交檔案到 GitHub 儲存庫
+        repo_path = os.path.dirname(os.path.abspath(__file__))
+        repo = Repo(repo_path)
+
+        if repo.bare:
+            return jsonify({"error": "Git repository not initialized."}), 500
+
+        # 確保當前分支是 main
+        if repo.active_branch.name != 'main':
+            repo.git.checkout('main')
+
+        # 添加 data/daily_data_YYYY_MM_DD.json、data/history_data.json 和 house.db
+        repo.index.add([daily_file_path, history_file_path, "house.db"])
+
+        # 提交更改
+        commit_message = f"Add daily and history data, house.db for {today}"
+        repo.index.commit(commit_message)
+
+        # 推送到遠端儲存庫的 main 分支
+        origin = repo.remote(name='origin')
+        origin.push(refspec='main:main')  # 明確指定推送至 main 分支
+
+        # 觸發 Daily Insight Update：添加一個空的提交到 content/posts/
+        dummy_file = "content/posts/dummy.txt"
+        os.makedirs("content/posts", exist_ok=True)
+        with open(dummy_file, "a") as f:
+            f.write(f"Updated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        repo.index.add([dummy_file])
+        repo.index.commit("Trigger Daily Insight Update")
+        origin.push(refspec='main:main')  # 再次推送至 main 分支
+
+        return jsonify({
+            "message": "Daily and history data generated, committed, and workflow triggered successfully.",
+            "daily_file_path": daily_file_path,
+            "history_file_path": history_file_path
+        }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 @app.route('/')
 def index():
     return send_from_directory('vue-app/dist', 'index.html')

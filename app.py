@@ -437,13 +437,33 @@ def generate_daily_data_endpoint():
         commit_message = f"Add daily and history data, house.db for {today}"
         repo.index.commit(commit_message)
 
-        # 拉取遠端更改，避免推送失敗
-        print("debug: before 1st stash")
-        repo.git.stash('save', '-u')
-        print("debug: before 2nd stash")
-        repo.git.stash()
-        print("debug: before pull")
-        repo.git.pull('origin', 'main')
+        # 檢查工作目錄狀態
+        print("調試：當前分支：", repo.git.branch('--show-current'))
+        print("調試：是否有未暫存變更：", repo.is_dirty(untracked_files=True))
+        print("調試：Git 狀態：\n", repo.git.status())
+
+        # 執行 stash
+        try:
+            print("調試：開始第一次 stash")
+            if repo.is_dirty(untracked_files=True):
+                repo.git.stash('save', '-u', '--include-untracked')
+                print("調試：已暫存所有變更")
+            else:
+                print("調試：無需暫存")
+        except Exception as e:
+            print(f"調試：Stash 失敗：{e}")
+
+        # 再次檢查狀態
+        print("調試：Stash 後狀態：\n", repo.git.status())
+
+        # 執行 pull
+        try:
+            print("調試：開始 pull")
+            repo.git.pull('origin', 'main')
+            print("調試：Pull 成功")
+        except Exception as e:
+            print(f"調試：Pull 失敗：{e}")
+            raise
 
         # 推送到遠端儲存庫的 main 分支
         origin = repo.remote(name='origin')

@@ -438,10 +438,16 @@ def generate_daily_data_endpoint():
         repo.index.commit(commit_message)
 
         try:
-        # 檢查狀態
+            # 檢查狀態
             print("調試：當前分支：", repo.git.branch('--show-current'))
             print("調試：是否有未暫存變更：", repo.is_dirty(untracked_files=True))
             print("調試：Git 狀態：\n", repo.git.status())
+
+            # 查看分叉的 commit
+            print("調試：本地獨特 commit：")
+            print(repo.git.log('origin/main..main', '--oneline'))
+            print("調試：遠端獨特 commit：")
+            print(repo.git.log('main..origin/main', '--oneline'))
 
             # Stash 變更
             print("調試：開始 stash")
@@ -451,13 +457,28 @@ def generate_daily_data_endpoint():
             else:
                 print("調試：無需暫存")
 
-            # 再次檢查狀態
+            # 檢查 stash 後狀態
             print("調試：Stash 後狀態：\n", repo.git.status())
 
-            # 執行 pull，使用 merge
+            # 執行 pull，允許非 fast-forward 合併
             print("調試：開始 pull")
-            repo.git.pull('origin', 'main', '--no-rebase')
+            repo.git.pull('origin', 'main', '--no-rebase', '--no-ff')
             print("調試：Pull 成功")
+
+            # 推送合併結果
+            print("調試：推送合併結果")
+            repo.git.push('origin', 'main')
+            print("調試：Push 成功")
+
+            # 恢復 stash 並提交
+            if repo.git.stash('list'):
+                print("調試：恢復 stash")
+                repo.git.stash('pop')
+                print("調試：提交恢復的變更")
+                repo.git.add(all=True)
+                repo.git.commit('-m', '自動同步資料和報告')
+                repo.git.push('origin', 'main')
+                print("調試：Push 新變更成功")
         except Exception as e:
             print(f"調試：錯誤：{e}")
             print(f"命令：{e.command}")

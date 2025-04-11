@@ -18,7 +18,7 @@ def generate_insight(themes):
     # 獲取當前日期並格式化
     current_date = datetime.datetime.now()
     date = current_date.strftime("%Y-%m-%dT%H:%M:%S+08:00")
-    title = f"{current_date.strftime('%Y-%m-%d')} 房市黑天鵝來襲？台中房市現況與今日價格波動分析"
+    title = f"{current_date.strftime('%Y-%m-%d')} 今日財經洞見與台中物件價格波動"
 
     # 生成新聞摘要部分
     news_summary = "# 每日房地產與財經新聞摘要\n\n"

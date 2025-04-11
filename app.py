@@ -437,32 +437,32 @@ def generate_daily_data_endpoint():
         commit_message = f"Add daily and history data, house.db for {today}"
         repo.index.commit(commit_message)
 
-        # 檢查工作目錄狀態
-        print("調試：當前分支：", repo.git.branch('--show-current'))
-        print("調試：是否有未暫存變更：", repo.is_dirty(untracked_files=True))
-        print("調試：Git 狀態：\n", repo.git.status())
-
-        # 執行 stash
         try:
-            print("調試：開始第一次 stash")
+        # 檢查狀態
+            print("調試：當前分支：", repo.git.branch('--show-current'))
+            print("調試：是否有未暫存變更：", repo.is_dirty(untracked_files=True))
+            print("調試：Git 狀態：\n", repo.git.status())
+
+            # Stash 變更
+            print("調試：開始 stash")
             if repo.is_dirty(untracked_files=True):
                 repo.git.stash('save', '-u', '--include-untracked')
                 print("調試：已暫存所有變更")
             else:
                 print("調試：無需暫存")
-        except Exception as e:
-            print(f"調試：Stash 失敗：{e}")
 
-        # 再次檢查狀態
-        print("調試：Stash 後狀態：\n", repo.git.status())
+            # 再次檢查狀態
+            print("調試：Stash 後狀態：\n", repo.git.status())
 
-        # 執行 pull
-        try:
+            # 執行 pull，使用 merge
             print("調試：開始 pull")
-            repo.git.pull('origin', 'main')
+            repo.git.pull('origin', 'main', '--no-rebase')
             print("調試：Pull 成功")
         except Exception as e:
-            print(f"調試：Pull 失敗：{e}")
+            print(f"調試：錯誤：{e}")
+            print(f"命令：{e.command}")
+            print(f"狀態碼：{e.status}")
+            print(f"錯誤訊息：{e.stderr}")
             raise
 
         # 推送到遠端儲存庫的 main 分支

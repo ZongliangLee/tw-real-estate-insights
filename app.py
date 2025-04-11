@@ -429,13 +429,16 @@ def generate_daily_data_endpoint():
         if repo.active_branch.name != 'main':
             repo.git.checkout('main')
         # 添加 data/daily_data_YYYY_MM_DD.json、data/history_data.json 和 house.db
+        print("debug: before add")
         repo.index.add([daily_file_path, history_file_path, "house.db"])
 
         # 提交更改
+        print("debug: before commit")
         commit_message = f"Add daily and history data, house.db for {today}"
         repo.index.commit(commit_message)
 
         # 拉取遠端更改，避免推送失敗
+        print("debug: before stash")
         repo.git.stash()
         repo.git.pull('origin', 'main')
 

@@ -1,6 +1,6 @@
 import datetime
 import os
-
+import opencc
 def generate_insight(themes):
     """
     生成房市分析文章的內容，包括日期、標題和正文。
@@ -53,8 +53,9 @@ def save_insight(themes):
     """
     result = generate_insight(themes)
     date = result["date"]
-    title = result["title"]
-    content = result["content"]
+    converter = opencc.OpenCC('s2t.json')
+    title = converter.convert(result["title"])
+    content = converter.convert(result["content"])
 
     filename = f"content/posts/insight-{date[:10]}.md"
     os.makedirs("content/posts", exist_ok=True)

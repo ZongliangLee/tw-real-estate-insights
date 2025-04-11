@@ -459,7 +459,8 @@ def generate_daily_data_endpoint():
         }), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
+
+
 @app.route('/')
 def index():
     return send_from_directory('vue-app/dist', 'index.html')

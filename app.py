@@ -409,16 +409,6 @@ def generate_insight_endpoint():
 @app.route('/api/generate-daily-data', methods=['POST'])
 def generate_daily_data_endpoint():
     try:
-        # 執行資料生成
-        generate_daily_and_history_data()
-
-        # 獲取當前日期並生成檔案路徑
-        today = datetime.now().strftime('%Y-%m-%d')
-        today_filename = today.replace('-', '_')
-        daily_file_path = f"data/daily_data_{today_filename}.json"
-        history_file_path = "data/history_data.json"
-        db_file_path = "house.db"
-
         # 初始化 Git 倉庫
         repo_path = os.path.dirname(os.path.abspath(__file__))
         repo = Repo(repo_path)
@@ -430,7 +420,7 @@ def generate_daily_data_endpoint():
         if repo.active_branch.name != 'main':
             repo.git.checkout('main')
 
-        # Git 操作：同步遠端並提交本地變更
+        # Git 操作：同步遠端並提交核心檔案
         try:
             # 檢查初始狀態
             print("調試：當前分支：", repo.git.branch('--show-current'))
@@ -443,7 +433,7 @@ def generate_daily_data_endpoint():
             print("調試：遠端獨特 commit：")
             print(repo.git.log('main..origin/main', '--oneline', '--stat'))
 
-            # Stash 未暫存變更
+            # Stash 未暫存變更（包括 docs/），但不打算恢復
             print("調試：開始 stash")
             if repo.is_dirty(untracked_files=True):
                 repo.git.stash('save', '-u', '--include-untracked')
@@ -454,7 +444,7 @@ def generate_daily_data_endpoint():
             # 檢查 stash 後狀態
             print("調試：Stash 後狀態：\n", repo.git.status())
 
-            # Pull 遠端變更，允許非 fast-forward 合併
+            # Pull 遠端變更
             print("調試：開始 pull")
             try:
                 repo.git.pull('origin', 'main', '--no-rebase', '--no-ff')
@@ -462,10 +452,10 @@ def generate_daily_data_endpoint():
             except git.exc.GitCommandError as e:
                 if "conflict" in str(e).lower():
                     print("調試：檢測到合併衝突")
-                    print("調試：接受本地版本")
-                    repo.git.checkout('--ours', '.')  # 優先本地檔案
+                    print("調試：接受遠端版本（因為不關心 docs/）")
+                    repo.git.checkout('--theirs', '.')  # 優先遠端，避免本地 docs/ 干擾
                     repo.git.add(all=True)
-                    repo.git.commit('-m', f'解決合併衝突，保留本地變更 - {today}')
+                    repo.git.commit('-m', f'解決合併衝突，接受遠端變更 - {datetime.now().strftime("%Y-%m-%d")}')
                     print("調試：衝突解決")
                 else:
                     print(f"調試：Pull 失敗：{e}")
@@ -474,12 +464,23 @@ def generate_daily_data_endpoint():
                     print(f"錯誤訊息：{e.stderr}")
                     raise
 
-            # 恢復 stash 的變更（如果有）
+            # 丟棄 stash（因為不關心 docs/）
             if repo.git.stash('list'):
-                print("調試：恢復 stash")
-                repo.git.stash('pop')
+                print("調試：清除 stash（不關心 docs/）")
+                repo.git.stash('clear')
 
-            # 添加新生成的檔案
+            # 執行資料生成
+            print("調試：開始生成資料")
+            generate_daily_and_history_data()
+
+            # 獲取檔案路徑
+            today = datetime.now().strftime('%Y-%m-%d')
+            today_filename = today.replace('-', '_')
+            daily_file_path = f"data/daily_data_{today_filename}.json"
+            history_file_path = "data/history_data.json"
+            db_file_path = "house.db"
+
+            # 添加核心檔案
             print("debug: before add")
             repo.index.add([daily_file_path, history_file_path, db_file_path])
 
@@ -488,7 +489,7 @@ def generate_daily_data_endpoint():
             commit_message = f"Add daily and history data, house.db for {today}"
             repo.index.commit(commit_message)
 
-            # 推送本地變更到遠端
+            # 推送
             print("調試：開始 push")
             origin = repo.remote(name='origin')
             origin.push(refspec='main:main')

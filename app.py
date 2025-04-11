@@ -409,16 +409,17 @@ def generate_insight_endpoint():
 @app.route('/api/generate-daily-data', methods=['POST'])
 def generate_daily_data_endpoint():
     try:
-        # 執行 generate_daily_and_history_data.py
+        # 執行資料生成
         generate_daily_and_history_data()
 
-        # 獲取當前日期
+        # 獲取當前日期並生成檔案路徑
         today = datetime.now().strftime('%Y-%m-%d')
         today_filename = today.replace('-', '_')
         daily_file_path = f"data/daily_data_{today_filename}.json"
         history_file_path = "data/history_data.json"
+        db_file_path = "house.db"
 
-        # 提交檔案到 GitHub 儲存庫
+        # 初始化 Git 倉庫
         repo_path = os.path.dirname(os.path.abspath(__file__))
         repo = Repo(repo_path)
 
@@ -428,28 +429,21 @@ def generate_daily_data_endpoint():
         # 確保當前分支是 main
         if repo.active_branch.name != 'main':
             repo.git.checkout('main')
-        # 添加 data/daily_data_YYYY_MM_DD.json、data/history_data.json 和 house.db
-        print("debug: before add")
-        repo.index.add([daily_file_path, history_file_path, "house.db"])
 
-        # 提交更改
-        print("debug: before commit")
-        commit_message = f"Add daily and history data, house.db for {today}"
-        repo.index.commit(commit_message)
-
+        # Git 操作：同步遠端並提交本地變更
         try:
-            # 檢查狀態
+            # 檢查初始狀態
             print("調試：當前分支：", repo.git.branch('--show-current'))
             print("調試：是否有未暫存變更：", repo.is_dirty(untracked_files=True))
             print("調試：Git 狀態：\n", repo.git.status())
 
-            # 查看分叉的 commit
+            # 查看本地和遠端 commit
             print("調試：本地獨特 commit：")
-            print(repo.git.log('origin/main..main', '--oneline'))
+            print(repo.git.log('origin/main..main', '--oneline', '--stat'))
             print("調試：遠端獨特 commit：")
-            print(repo.git.log('main..origin/main', '--oneline'))
+            print(repo.git.log('main..origin/main', '--oneline', '--stat'))
 
-            # Stash 變更
+            # Stash 未暫存變更
             print("調試：開始 stash")
             if repo.is_dirty(untracked_files=True):
                 repo.git.stash('save', '-u', '--include-untracked')
@@ -460,45 +454,64 @@ def generate_daily_data_endpoint():
             # 檢查 stash 後狀態
             print("調試：Stash 後狀態：\n", repo.git.status())
 
-            # 執行 pull，允許非 fast-forward 合併
+            # Pull 遠端變更，允許非 fast-forward 合併
             print("調試：開始 pull")
-            repo.git.pull('origin', 'main', '--no-rebase', '--no-ff')
-            print("調試：Pull 成功")
+            try:
+                repo.git.pull('origin', 'main', '--no-rebase', '--no-ff')
+                print("調試：Pull 成功")
+            except git.exc.GitCommandError as e:
+                if "conflict" in str(e).lower():
+                    print("調試：檢測到合併衝突")
+                    print("調試：接受本地版本")
+                    repo.git.checkout('--ours', '.')  # 優先本地檔案
+                    repo.git.add(all=True)
+                    repo.git.commit('-m', f'解決合併衝突，保留本地變更 - {today}')
+                    print("調試：衝突解決")
+                else:
+                    print(f"調試：Pull 失敗：{e}")
+                    print(f"命令：{e.command}")
+                    print(f"狀態碼：{e.status}")
+                    print(f"錯誤訊息：{e.stderr}")
+                    raise
 
-            # 推送合併結果
-            print("調試：推送合併結果")
-            repo.git.push('origin', 'main')
-            print("調試：Push 成功")
-
-            # 恢復 stash 並提交
+            # 恢復 stash 的變更（如果有）
             if repo.git.stash('list'):
                 print("調試：恢復 stash")
                 repo.git.stash('pop')
-                print("調試：提交恢復的變更")
-                repo.git.add(all=True)
-                repo.git.commit('-m', '自動同步資料和報告')
-                repo.git.push('origin', 'main')
-                print("調試：Push 新變更成功")
-        except Exception as e:
-            print(f"調試：錯誤：{e}")
+
+            # 添加新生成的檔案
+            print("debug: before add")
+            repo.index.add([daily_file_path, history_file_path, db_file_path])
+
+            # 提交變更
+            print("debug: before commit")
+            commit_message = f"Add daily and history data, house.db for {today}"
+            repo.index.commit(commit_message)
+
+            # 推送本地變更到遠端
+            print("調試：開始 push")
+            origin = repo.remote(name='origin')
+            origin.push(refspec='main:main')
+            print("調試：Push 成功")
+
+        except git.exc.GitCommandError as e:
+            print(f"調試：Git 操作錯誤：{e}")
             print(f"命令：{e.command}")
             print(f"狀態碼：{e.status}")
             print(f"錯誤訊息：{e.stderr}")
             raise
 
-        # 推送到遠端儲存庫的 main 分支
-        origin = repo.remote(name='origin')
-        origin.push(refspec='main:main')
-
+        # 回傳成功訊息
         return jsonify({
-            "message": "Daily and history data generated, committed, and workflow triggered successfully.",
+            "message": "Daily and history data generated, committed, and pushed successfully.",
             "daily_file_path": daily_file_path,
             "history_file_path": history_file_path
         }), 200
+
     except Exception as e:
+        print(f"錯誤：{str(e)}")
         return jsonify({"error": str(e)}), 500
-
-
+    
 @app.route('/')
 def index():
     return send_from_directory('vue-app/dist', 'index.html')

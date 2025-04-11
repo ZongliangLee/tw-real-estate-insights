@@ -27,4 +27,6 @@ jobs:
         git config user.email "actions@github.com"
         git add docs/ content/posts/
         git commit -m "Update site with new insight" || echo "No changes to commit"
+        git stash
+        git pull origin main
         git push origin main

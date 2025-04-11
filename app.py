@@ -494,7 +494,7 @@ def generate_daily_data_endpoint():
             origin.push(refspec='main:main')
             print("調試：Push 成功")
 
-        except git.exc.GitCommandError as e:
+        except Exception as e:
             print(f"調試：Git 操作錯誤：{e}")
             print(f"命令：{e.command}")
             print(f"狀態碼：{e.status}")

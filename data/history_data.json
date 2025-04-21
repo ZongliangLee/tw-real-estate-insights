@@ -1,5 +1,1290 @@
 [
   {
+    "houseNo": "2000675CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:03:33"
+  },
+  {
+    "houseNo": "1927827CT",
+    "totalPrice": 1380.0,
+    "updatedDate": "2025-04-21 11:03:33"
+  },
+  {
+    "houseNo": "1961007CT",
+    "totalPrice": 2168.0,
+    "updatedDate": "2025-04-21 11:03:33"
+  },
+  {
+    "houseNo": "S2463022PA",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 11:03:31"
+  },
+  {
+    "houseNo": "1958039CT",
+    "totalPrice": 418.0,
+    "updatedDate": "2025-04-21 11:03:30"
+  },
+  {
+    "houseNo": "1991657CT",
+    "totalPrice": 368.0,
+    "updatedDate": "2025-04-21 11:03:28"
+  },
+  {
+    "houseNo": "S2840279PA",
+    "totalPrice": 1988.0,
+    "updatedDate": "2025-04-21 11:03:22"
+  },
+  {
+    "houseNo": "1924688CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:03:08"
+  },
+  {
+    "houseNo": "1988440CT",
+    "totalPrice": 1780.0,
+    "updatedDate": "2025-04-21 11:03:05"
+  },
+  {
+    "houseNo": "1922944CT",
+    "totalPrice": 1158.0,
+    "updatedDate": "2025-04-21 11:03:03"
+  },
+  {
+    "houseNo": "1939379CT",
+    "totalPrice": 5880.0,
+    "updatedDate": "2025-04-21 11:03:02"
+  },
+  {
+    "houseNo": "2002303CT",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 11:03:02"
+  },
+  {
+    "houseNo": "2002212CT",
+    "totalPrice": 928.0,
+    "updatedDate": "2025-04-21 11:02:59"
+  },
+  {
+    "houseNo": "1990738CT",
+    "totalPrice": 368.0,
+    "updatedDate": "2025-04-21 11:02:57"
+  },
+  {
+    "houseNo": "2008954CT",
+    "totalPrice": 1180.0,
+    "updatedDate": "2025-04-21 11:02:52"
+  },
+  {
+    "houseNo": "1956784CT",
+    "totalPrice": 1689.0,
+    "updatedDate": "2025-04-21 11:02:49"
+  },
+  {
+    "houseNo": "2007819CT",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 11:02:46"
+  },
+  {
+    "houseNo": "1954874CT",
+    "totalPrice": 2480.0,
+    "updatedDate": "2025-04-21 11:02:44"
+  },
+  {
+    "houseNo": "1923974CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:02:40"
+  },
+  {
+    "houseNo": "1974831CT",
+    "totalPrice": 2458.0,
+    "updatedDate": "2025-04-21 11:02:36"
+  },
+  {
+    "houseNo": "1975217CT",
+    "totalPrice": 1998.0,
+    "updatedDate": "2025-04-21 11:02:35"
+  },
+  {
+    "houseNo": "1967430CT",
+    "totalPrice": 1200.0,
+    "updatedDate": "2025-04-21 11:02:33"
+  },
+  {
+    "houseNo": "2005854CT",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 11:02:31"
+  },
+  {
+    "houseNo": "2012023CT",
+    "totalPrice": 1100.0,
+    "updatedDate": "2025-04-21 11:02:31"
+  },
+  {
+    "houseNo": "2012106CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:02:24"
+  },
+  {
+    "houseNo": "2015306CT",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 11:02:24"
+  },
+  {
+    "houseNo": "2015473CT",
+    "totalPrice": 1998.0,
+    "updatedDate": "2025-04-21 11:02:24"
+  },
+  {
+    "houseNo": "2014571CT",
+    "totalPrice": 2098.0,
+    "updatedDate": "2025-04-21 11:02:21"
+  },
+  {
+    "houseNo": "1952316CT",
+    "totalPrice": 3480.0,
+    "updatedDate": "2025-04-21 11:02:14"
+  },
+  {
+    "houseNo": "1971527CT",
+    "totalPrice": 738.0,
+    "updatedDate": "2025-04-21 11:02:11"
+  },
+  {
+    "houseNo": "1990175CT",
+    "totalPrice": 238.0,
+    "updatedDate": "2025-04-21 11:02:11"
+  },
+  {
+    "houseNo": "2002297CT",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 11:02:09"
+  },
+  {
+    "houseNo": "2009653CT",
+    "totalPrice": 1530.0,
+    "updatedDate": "2025-04-21 11:02:08"
+  },
+  {
+    "houseNo": "2003675CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:02:06"
+  },
+  {
+    "houseNo": "2008723CT",
+    "totalPrice": 1180.0,
+    "updatedDate": "2025-04-21 11:02:04"
+  },
+  {
+    "houseNo": "1991761CT",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 11:02:01"
+  },
+  {
+    "houseNo": "2008188CT",
+    "totalPrice": 1180.0,
+    "updatedDate": "2025-04-21 11:01:54"
+  },
+  {
+    "houseNo": "1950157CT",
+    "totalPrice": 5188.0,
+    "updatedDate": "2025-04-21 11:01:50"
+  },
+  {
+    "houseNo": "1926373CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:01:46"
+  },
+  {
+    "houseNo": "1993796CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:01:44"
+  },
+  {
+    "houseNo": "1999725CT",
+    "totalPrice": 2880.0,
+    "updatedDate": "2025-04-21 11:01:44"
+  },
+  {
+    "houseNo": "2017894CT",
+    "totalPrice": 1250.0,
+    "updatedDate": "2025-04-21 11:01:44"
+  },
+  {
+    "houseNo": "S2839711PA",
+    "totalPrice": 1688.0,
+    "updatedDate": "2025-04-21 11:01:42"
+  },
+  {
+    "houseNo": "1990802CT",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 11:01:38"
+  },
+  {
+    "houseNo": "1982153CT",
+    "totalPrice": 1958.0,
+    "updatedDate": "2025-04-21 11:01:32"
+  },
+  {
+    "houseNo": "1987990CT",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 11:01:32"
+  },
+  {
+    "houseNo": "MS130964HB",
+    "totalPrice": 3888.0,
+    "updatedDate": "2025-04-21 11:01:22"
+  },
+  {
+    "houseNo": "MS123177HB",
+    "totalPrice": 6880.0,
+    "updatedDate": "2025-04-21 11:01:14"
+  },
+  {
+    "houseNo": "MS133400HB",
+    "totalPrice": 5688.0,
+    "updatedDate": "2025-04-21 11:01:14"
+  },
+  {
+    "houseNo": "MS127756HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:01:12"
+  },
+  {
+    "houseNo": "JS93918HB",
+    "totalPrice": 2588.0,
+    "updatedDate": "2025-04-21 11:01:10"
+  },
+  {
+    "houseNo": "JS91981HB",
+    "totalPrice": 5980.0,
+    "updatedDate": "2025-04-21 11:00:54"
+  },
+  {
+    "houseNo": "JS82440HB",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 11:00:53"
+  },
+  {
+    "houseNo": "JS92461HB",
+    "totalPrice": 7880.0,
+    "updatedDate": "2025-04-21 11:00:49"
+  },
+  {
+    "houseNo": "JS94216HB",
+    "totalPrice": 1488.0,
+    "updatedDate": "2025-04-21 11:00:49"
+  },
+  {
+    "houseNo": "JS94342HB",
+    "totalPrice": 1158.0,
+    "updatedDate": "2025-04-21 11:00:49"
+  },
+  {
+    "houseNo": "MS143782HB",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 11:00:48"
+  },
+  {
+    "houseNo": "MS135268HB",
+    "totalPrice": 6980.0,
+    "updatedDate": "2025-04-21 11:00:46"
+  },
+  {
+    "houseNo": "WS44282HB",
+    "totalPrice": 2460.0,
+    "updatedDate": "2025-04-21 11:00:41"
+  },
+  {
+    "houseNo": "MS127658HB",
+    "totalPrice": 1738.0,
+    "updatedDate": "2025-04-21 11:00:39"
+  },
+  {
+    "houseNo": "MS129203HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:00:36"
+  },
+  {
+    "houseNo": "MS139033HB",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 11:00:35"
+  },
+  {
+    "houseNo": "1997789CT",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 11:00:30"
+  },
+  {
+    "houseNo": "JS75117HB",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 11:00:28"
+  },
+  {
+    "houseNo": "RB04087GH",
+    "totalPrice": 6388.0,
+    "updatedDate": "2025-04-21 11:00:28"
+  },
+  {
+    "houseNo": "JS90713HB",
+    "totalPrice": 2488.0,
+    "updatedDate": "2025-04-21 11:00:25"
+  },
+  {
+    "houseNo": "S2521570PA",
+    "totalPrice": 3688.0,
+    "updatedDate": "2025-04-21 11:00:23"
+  },
+  {
+    "houseNo": "S2743866PA",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 11:00:22"
+  },
+  {
+    "houseNo": "JS90395HB",
+    "totalPrice": 1468.0,
+    "updatedDate": "2025-04-21 11:00:17"
+  },
+  {
+    "houseNo": "MS143787HB",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 11:00:15"
+  },
+  {
+    "houseNo": "JS90865HB",
+    "totalPrice": 1750.0,
+    "updatedDate": "2025-04-21 11:00:08"
+  },
+  {
+    "houseNo": "RS69915HB",
+    "totalPrice": 3380.0,
+    "updatedDate": "2025-04-21 11:00:08"
+  },
+  {
+    "houseNo": "MS137810HB",
+    "totalPrice": 7300.0,
+    "updatedDate": "2025-04-21 11:00:08"
+  },
+  {
+    "houseNo": "MS140202HB",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 11:00:07"
+  },
+  {
+    "houseNo": "RS75932HB",
+    "totalPrice": 2280.0,
+    "updatedDate": "2025-04-21 11:00:05"
+  },
+  {
+    "houseNo": "RS79278HB",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 11:00:05"
+  },
+  {
+    "houseNo": "2002926CT",
+    "totalPrice": 728.0,
+    "updatedDate": "2025-04-21 11:00:04"
+  },
+  {
+    "houseNo": "JS92970HB",
+    "totalPrice": 1528.0,
+    "updatedDate": "2025-04-21 11:00:02"
+  },
+  {
+    "houseNo": "MS141651HB",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:59:59"
+  },
+  {
+    "houseNo": "1992451CT",
+    "totalPrice": 1888.0,
+    "updatedDate": "2025-04-21 10:59:59"
+  },
+  {
+    "houseNo": "JS93670HB",
+    "totalPrice": 1168.0,
+    "updatedDate": "2025-04-21 10:59:58"
+  },
+  {
+    "houseNo": "RS75398HB",
+    "totalPrice": 2480.0,
+    "updatedDate": "2025-04-21 10:59:58"
+  },
+  {
+    "houseNo": "MS122117HB",
+    "totalPrice": 5680.0,
+    "updatedDate": "2025-04-21 10:59:58"
+  },
+  {
+    "houseNo": "MS129637HB",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:59:58"
+  },
+  {
+    "houseNo": "2009679CT",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:59:56"
+  },
+  {
+    "houseNo": "JS91725HB",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:59:56"
+  },
+  {
+    "houseNo": "JS91851HB",
+    "totalPrice": 1458.0,
+    "updatedDate": "2025-04-21 10:59:56"
+  },
+  {
+    "houseNo": "MS136662HB",
+    "totalPrice": 1238.0,
+    "updatedDate": "2025-04-21 10:59:53"
+  },
+  {
+    "houseNo": "JS90883HB",
+    "totalPrice": 1358.0,
+    "updatedDate": "2025-04-21 10:59:51"
+  },
+  {
+    "houseNo": "MS142611HB",
+    "totalPrice": 1180.0,
+    "updatedDate": "2025-04-21 10:59:42"
+  },
+  {
+    "houseNo": "JS92571HB",
+    "totalPrice": 1748.0,
+    "updatedDate": "2025-04-21 10:59:37"
+  },
+  {
+    "houseNo": "MS137766HB",
+    "totalPrice": 2498.0,
+    "updatedDate": "2025-04-21 10:59:35"
+  },
+  {
+    "houseNo": "MS139523HB",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:59:35"
+  },
+  {
+    "houseNo": "RS77136HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:59:34"
+  },
+  {
+    "houseNo": "JS93114HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:59:29"
+  },
+  {
+    "houseNo": "JS91429HB",
+    "totalPrice": 2980.0,
+    "updatedDate": "2025-04-21 10:59:22"
+  },
+  {
+    "houseNo": "MS137926HB",
+    "totalPrice": 2388.0,
+    "updatedDate": "2025-04-21 10:59:22"
+  },
+  {
+    "houseNo": "MS139989HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:59:20"
+  },
+  {
+    "houseNo": "MS140747HB",
+    "totalPrice": 1668.0,
+    "updatedDate": "2025-04-21 10:59:14"
+  },
+  {
+    "houseNo": "2006552CT",
+    "totalPrice": 2280.0,
+    "updatedDate": "2025-04-21 10:59:13"
+  },
+  {
+    "houseNo": "JS92947HB",
+    "totalPrice": 1358.0,
+    "updatedDate": "2025-04-21 10:59:11"
+  },
+  {
+    "houseNo": "MS142697HB",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:59:09"
+  },
+  {
+    "houseNo": "MS140111HB",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:59:04"
+  },
+  {
+    "houseNo": "1958070CT",
+    "totalPrice": 458.0,
+    "updatedDate": "2025-04-21 10:59:04"
+  },
+  {
+    "houseNo": "2012457CT",
+    "totalPrice": 988.0,
+    "updatedDate": "2025-04-21 10:59:04"
+  },
+  {
+    "houseNo": "MS143789HB",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 10:59:01"
+  },
+  {
+    "houseNo": "2009242CT",
+    "totalPrice": 3980.0,
+    "updatedDate": "2025-04-21 10:58:56"
+  },
+  {
+    "houseNo": "RS75997HB",
+    "totalPrice": 1458.0,
+    "updatedDate": "2025-04-21 10:58:56"
+  },
+  {
+    "houseNo": "MS122121HB",
+    "totalPrice": 5680.0,
+    "updatedDate": "2025-04-21 10:58:56"
+  },
+  {
+    "houseNo": "MS138354HB",
+    "totalPrice": 1198.0,
+    "updatedDate": "2025-04-21 10:58:55"
+  },
+  {
+    "houseNo": "1955825CT",
+    "totalPrice": 2480.0,
+    "updatedDate": "2025-04-21 10:58:53"
+  },
+  {
+    "houseNo": "MS140733HB",
+    "totalPrice": 3100.0,
+    "updatedDate": "2025-04-21 10:58:51"
+  },
+  {
+    "houseNo": "RS80553HB",
+    "totalPrice": 1488.0,
+    "updatedDate": "2025-04-21 10:58:44"
+  },
+  {
+    "houseNo": "MS139086HB",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:58:44"
+  },
+  {
+    "houseNo": "JS88828HB",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:58:38"
+  },
+  {
+    "houseNo": "JS92735HB",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:58:32"
+  },
+  {
+    "houseNo": "JS92874HB",
+    "totalPrice": 2358.0,
+    "updatedDate": "2025-04-21 10:58:29"
+  },
+  {
+    "houseNo": "MS143255HB",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:58:27"
+  },
+  {
+    "houseNo": "MS143679HB",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:58:27"
+  },
+  {
+    "houseNo": "MS105178HB",
+    "totalPrice": 5980.0,
+    "updatedDate": "2025-04-21 10:58:24"
+  },
+  {
+    "houseNo": "MS140256HB",
+    "totalPrice": 2980.0,
+    "updatedDate": "2025-04-21 10:58:21"
+  },
+  {
+    "houseNo": "JS89002HB",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 10:58:21"
+  },
+  {
+    "houseNo": "MS140697HB",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:58:19"
+  },
+  {
+    "houseNo": "JS92717HB",
+    "totalPrice": 3088.0,
+    "updatedDate": "2025-04-21 10:58:19"
+  },
+  {
+    "houseNo": "MS143898HB",
+    "totalPrice": 3980.0,
+    "updatedDate": "2025-04-21 10:58:16"
+  },
+  {
+    "houseNo": "MS144078HB",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 10:58:13"
+  },
+  {
+    "houseNo": "JS94291HB",
+    "totalPrice": 988.0,
+    "updatedDate": "2025-04-21 10:58:13"
+  },
+  {
+    "houseNo": "MS142412HB",
+    "totalPrice": 468.0,
+    "updatedDate": "2025-04-21 10:58:11"
+  },
+  {
+    "houseNo": "MS138236HB",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:58:11"
+  },
+  {
+    "houseNo": "YS176990HB",
+    "totalPrice": 1850.0,
+    "updatedDate": "2025-04-21 10:58:09"
+  },
+  {
+    "houseNo": "JS88162HB",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:58:08"
+  },
+  {
+    "houseNo": "MS139977HB",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 10:58:06"
+  },
+  {
+    "houseNo": "MS141551HB",
+    "totalPrice": 2580.0,
+    "updatedDate": "2025-04-21 10:58:05"
+  },
+  {
+    "houseNo": "MS143713HB",
+    "totalPrice": 1158.0,
+    "updatedDate": "2025-04-21 10:58:05"
+  },
+  {
+    "houseNo": "MS138113HB",
+    "totalPrice": 1780.0,
+    "updatedDate": "2025-04-21 10:57:57"
+  },
+  {
+    "houseNo": "JS92607HB",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:57:44"
+  },
+  {
+    "houseNo": "RS72201HB",
+    "totalPrice": 2480.0,
+    "updatedDate": "2025-04-21 10:57:43"
+  },
+  {
+    "houseNo": "8706PH",
+    "totalPrice": 3180.0,
+    "updatedDate": "2025-04-21 10:57:33"
+  },
+  {
+    "houseNo": "87638C",
+    "totalPrice": 9888.0,
+    "updatedDate": "2025-04-21 10:57:17"
+  },
+  {
+    "houseNo": "1376VC",
+    "totalPrice": 1938.0,
+    "updatedDate": "2025-04-21 10:57:14"
+  },
+  {
+    "houseNo": "7502GC",
+    "totalPrice": 3280.0,
+    "updatedDate": "2025-04-21 10:57:08"
+  },
+  {
+    "houseNo": "2015ST",
+    "totalPrice": 1288.0,
+    "updatedDate": "2025-04-21 10:57:05"
+  },
+  {
+    "houseNo": "7462YZ",
+    "totalPrice": 3600.0,
+    "updatedDate": "2025-04-21 10:57:05"
+  },
+  {
+    "houseNo": "1270LU",
+    "totalPrice": 1720.0,
+    "updatedDate": "2025-04-21 10:56:57"
+  },
+  {
+    "houseNo": "6687RG",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 10:56:57"
+  },
+  {
+    "houseNo": "2379TL",
+    "totalPrice": 1198.0,
+    "updatedDate": "2025-04-21 10:56:56"
+  },
+  {
+    "houseNo": "4623WX",
+    "totalPrice": 4188.0,
+    "updatedDate": "2025-04-21 10:56:53"
+  },
+  {
+    "houseNo": "4922TM",
+    "totalPrice": 2350.0,
+    "updatedDate": "2025-04-21 10:56:47"
+  },
+  {
+    "houseNo": "7401DG",
+    "totalPrice": 5508.0,
+    "updatedDate": "2025-04-21 10:56:44"
+  },
+  {
+    "houseNo": "4230GD",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:56:40"
+  },
+  {
+    "houseNo": "8929VK",
+    "totalPrice": 2580.0,
+    "updatedDate": "2025-04-21 10:56:35"
+  },
+  {
+    "houseNo": "1529BJ",
+    "totalPrice": 1958.0,
+    "updatedDate": "2025-04-21 10:56:32"
+  },
+  {
+    "houseNo": "5566DP",
+    "totalPrice": 1630.0,
+    "updatedDate": "2025-04-21 10:56:32"
+  },
+  {
+    "houseNo": "7735GN",
+    "totalPrice": 1158.0,
+    "updatedDate": "2025-04-21 10:56:30"
+  },
+  {
+    "houseNo": "1237QB",
+    "totalPrice": 3988.0,
+    "updatedDate": "2025-04-21 10:56:24"
+  },
+  {
+    "houseNo": "20645T",
+    "totalPrice": 9800.0,
+    "updatedDate": "2025-04-21 10:56:24"
+  },
+  {
+    "houseNo": "3892LZ",
+    "totalPrice": 1388.0,
+    "updatedDate": "2025-04-21 10:56:11"
+  },
+  {
+    "houseNo": "8645YC",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:56:10"
+  },
+  {
+    "houseNo": "8060BG",
+    "totalPrice": 3398.0,
+    "updatedDate": "2025-04-21 10:56:08"
+  },
+  {
+    "houseNo": "5303CG",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:56:07"
+  },
+  {
+    "houseNo": "9785GN",
+    "totalPrice": 2055.0,
+    "updatedDate": "2025-04-21 10:56:07"
+  },
+  {
+    "houseNo": "4687JP",
+    "totalPrice": 1768.0,
+    "updatedDate": "2025-04-21 10:56:05"
+  },
+  {
+    "houseNo": "0749AZ",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 10:56:03"
+  },
+  {
+    "houseNo": "2709ZL",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:56:03"
+  },
+  {
+    "houseNo": "8204VU",
+    "totalPrice": 2458.0,
+    "updatedDate": "2025-04-21 10:55:55"
+  },
+  {
+    "houseNo": "4419AL",
+    "totalPrice": 6880.0,
+    "updatedDate": "2025-04-21 10:55:54"
+  },
+  {
+    "houseNo": "6120NY",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 10:55:52"
+  },
+  {
+    "houseNo": "6275DJ",
+    "totalPrice": 5888.0,
+    "updatedDate": "2025-04-21 10:55:52"
+  },
+  {
+    "houseNo": "6085XL",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 10:55:51"
+  },
+  {
+    "houseNo": "1656NZ",
+    "totalPrice": 4680.0,
+    "updatedDate": "2025-04-21 10:55:51"
+  },
+  {
+    "houseNo": "1949FX",
+    "totalPrice": 1538.0,
+    "updatedDate": "2025-04-21 10:55:44"
+  },
+  {
+    "houseNo": "7416XG",
+    "totalPrice": 1988.0,
+    "updatedDate": "2025-04-21 10:55:43"
+  },
+  {
+    "houseNo": "3812QL",
+    "totalPrice": 3398.0,
+    "updatedDate": "2025-04-21 10:55:37"
+  },
+  {
+    "houseNo": "6068ZN",
+    "totalPrice": 1990.0,
+    "updatedDate": "2025-04-21 10:55:37"
+  },
+  {
+    "houseNo": "4716FJ",
+    "totalPrice": 2280.0,
+    "updatedDate": "2025-04-21 10:55:37"
+  },
+  {
+    "houseNo": "6696JY",
+    "totalPrice": 2450.0,
+    "updatedDate": "2025-04-21 10:55:37"
+  },
+  {
+    "houseNo": "4998UW",
+    "totalPrice": 1388.0,
+    "updatedDate": "2025-04-21 10:55:35"
+  },
+  {
+    "houseNo": "0429LX",
+    "totalPrice": 1480.0,
+    "updatedDate": "2025-04-21 10:55:35"
+  },
+  {
+    "houseNo": "0581PH",
+    "totalPrice": 3088.0,
+    "updatedDate": "2025-04-21 10:55:35"
+  },
+  {
+    "houseNo": "7186LX",
+    "totalPrice": 1828.0,
+    "updatedDate": "2025-04-21 10:55:34"
+  },
+  {
+    "houseNo": "5160CM",
+    "totalPrice": 1786.0,
+    "updatedDate": "2025-04-21 10:55:34"
+  },
+  {
+    "houseNo": "1173DN",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:55:31"
+  },
+  {
+    "houseNo": "9213CS",
+    "totalPrice": 1998.0,
+    "updatedDate": "2025-04-21 10:55:29"
+  },
+  {
+    "houseNo": "1920AA",
+    "totalPrice": 3050.0,
+    "updatedDate": "2025-04-21 10:55:27"
+  },
+  {
+    "houseNo": "2167RQ",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:55:26"
+  },
+  {
+    "houseNo": "4422SU",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:55:26"
+  },
+  {
+    "houseNo": "0905XW",
+    "totalPrice": 2588.0,
+    "updatedDate": "2025-04-21 10:55:24"
+  },
+  {
+    "houseNo": "9566HF",
+    "totalPrice": 2980.0,
+    "updatedDate": "2025-04-21 10:55:20"
+  },
+  {
+    "houseNo": "2288FJ",
+    "totalPrice": 1588.0,
+    "updatedDate": "2025-04-21 10:55:16"
+  },
+  {
+    "houseNo": "2927PJ",
+    "totalPrice": 898.0,
+    "updatedDate": "2025-04-21 10:55:11"
+  },
+  {
+    "houseNo": "9948LT",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 10:55:11"
+  },
+  {
+    "houseNo": "8011ZJ",
+    "totalPrice": 4688.0,
+    "updatedDate": "2025-04-21 10:55:09"
+  },
+  {
+    "houseNo": "6300DJ",
+    "totalPrice": 2880.0,
+    "updatedDate": "2025-04-21 10:55:09"
+  },
+  {
+    "houseNo": "19609M",
+    "totalPrice": 3468.0,
+    "updatedDate": "2025-04-21 10:55:04"
+  },
+  {
+    "houseNo": "8444VV",
+    "totalPrice": 1530.0,
+    "updatedDate": "2025-04-21 10:55:00"
+  },
+  {
+    "houseNo": "8223CR",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:55:00"
+  },
+  {
+    "houseNo": "9175KS",
+    "totalPrice": 3980.0,
+    "updatedDate": "2025-04-21 10:54:57"
+  },
+  {
+    "houseNo": "8271YG",
+    "totalPrice": 1690.0,
+    "updatedDate": "2025-04-21 10:54:55"
+  },
+  {
+    "houseNo": "1831ZK",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:54:50"
+  },
+  {
+    "houseNo": "6098BS",
+    "totalPrice": 2258.0,
+    "updatedDate": "2025-04-21 10:54:49"
+  },
+  {
+    "houseNo": "3969RS",
+    "totalPrice": 1338.0,
+    "updatedDate": "2025-04-21 10:54:49"
+  },
+  {
+    "houseNo": "5990WJ",
+    "totalPrice": 1058.0,
+    "updatedDate": "2025-04-21 10:54:47"
+  },
+  {
+    "houseNo": "1041FQ",
+    "totalPrice": 1650.0,
+    "updatedDate": "2025-04-21 10:54:47"
+  },
+  {
+    "houseNo": "2947FB",
+    "totalPrice": 1658.0,
+    "updatedDate": "2025-04-21 10:54:44"
+  },
+  {
+    "houseNo": "2753SK",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 10:54:42"
+  },
+  {
+    "houseNo": "9783MJ",
+    "totalPrice": 3468.0,
+    "updatedDate": "2025-04-21 10:54:40"
+  },
+  {
+    "houseNo": "3905CW",
+    "totalPrice": 1980.0,
+    "updatedDate": "2025-04-21 10:54:36"
+  },
+  {
+    "houseNo": "8235DZ",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:54:36"
+  },
+  {
+    "houseNo": "7615WF",
+    "totalPrice": 3680.0,
+    "updatedDate": "2025-04-21 10:54:32"
+  },
+  {
+    "houseNo": "6245LR",
+    "totalPrice": 1450.0,
+    "updatedDate": "2025-04-21 10:54:18"
+  },
+  {
+    "houseNo": "4748AG",
+    "totalPrice": 3800.0,
+    "updatedDate": "2025-04-21 10:54:15"
+  },
+  {
+    "houseNo": "7722VH",
+    "totalPrice": 1388.0,
+    "updatedDate": "2025-04-21 10:54:15"
+  },
+  {
+    "houseNo": "7998PL",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:54:13"
+  },
+  {
+    "houseNo": "2714PV",
+    "totalPrice": 1438.0,
+    "updatedDate": "2025-04-21 10:54:13"
+  },
+  {
+    "houseNo": "1924UQ",
+    "totalPrice": 1868.0,
+    "updatedDate": "2025-04-21 10:54:07"
+  },
+  {
+    "houseNo": "9834RF",
+    "totalPrice": 1750.0,
+    "updatedDate": "2025-04-21 10:54:04"
+  },
+  {
+    "houseNo": "9840DY",
+    "totalPrice": 1768.0,
+    "updatedDate": "2025-04-21 10:54:03"
+  },
+  {
+    "houseNo": "5015HN",
+    "totalPrice": 2280.0,
+    "updatedDate": "2025-04-21 10:54:01"
+  },
+  {
+    "houseNo": "6697PZ",
+    "totalPrice": 1958.0,
+    "updatedDate": "2025-04-21 10:54:01"
+  },
+  {
+    "houseNo": "4041GQ",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:54:01"
+  },
+  {
+    "houseNo": "3249HY",
+    "totalPrice": 1868.0,
+    "updatedDate": "2025-04-21 10:53:58"
+  },
+  {
+    "houseNo": "7344QP",
+    "totalPrice": 988.0,
+    "updatedDate": "2025-04-21 10:53:57"
+  },
+  {
+    "houseNo": "6818FS",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:53:55"
+  },
+  {
+    "houseNo": "5754TV",
+    "totalPrice": 2288.0,
+    "updatedDate": "2025-04-21 10:53:54"
+  },
+  {
+    "houseNo": "0091CM",
+    "totalPrice": 2988.0,
+    "updatedDate": "2025-04-21 10:53:52"
+  },
+  {
+    "houseNo": "8787ZZ",
+    "totalPrice": 4380.0,
+    "updatedDate": "2025-04-21 10:53:51"
+  },
+  {
+    "houseNo": "0773HG",
+    "totalPrice": 1075.0,
+    "updatedDate": "2025-04-21 10:53:49"
+  },
+  {
+    "houseNo": "9624KK",
+    "totalPrice": 1150.0,
+    "updatedDate": "2025-04-21 10:53:43"
+  },
+  {
+    "houseNo": "2317WS",
+    "totalPrice": 1988.0,
+    "updatedDate": "2025-04-21 10:53:43"
+  },
+  {
+    "houseNo": "7242MX",
+    "totalPrice": 596.0,
+    "updatedDate": "2025-04-21 10:53:43"
+  },
+  {
+    "houseNo": "5722RM",
+    "totalPrice": 2520.0,
+    "updatedDate": "2025-04-21 10:53:43"
+  },
+  {
+    "houseNo": "6994GY",
+    "totalPrice": 1850.0,
+    "updatedDate": "2025-04-21 10:53:43"
+  },
+  {
+    "houseNo": "8874NT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:53:40"
+  },
+  {
+    "houseNo": "2861HQ",
+    "totalPrice": 2598.0,
+    "updatedDate": "2025-04-21 10:53:40"
+  },
+  {
+    "houseNo": "1136JF",
+    "totalPrice": 1180.0,
+    "updatedDate": "2025-04-21 10:53:38"
+  },
+  {
+    "houseNo": "8455AD",
+    "totalPrice": 2398.0,
+    "updatedDate": "2025-04-21 10:53:38"
+  },
+  {
+    "houseNo": "2525TS",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:53:38"
+  },
+  {
+    "houseNo": "3787QF",
+    "totalPrice": 2488.0,
+    "updatedDate": "2025-04-21 10:53:36"
+  },
+  {
+    "houseNo": "9253JP",
+    "totalPrice": 5588.0,
+    "updatedDate": "2025-04-21 10:53:36"
+  },
+  {
+    "houseNo": "0892TY",
+    "totalPrice": 2898.0,
+    "updatedDate": "2025-04-21 10:53:36"
+  },
+  {
+    "houseNo": "7844WW",
+    "totalPrice": 2358.0,
+    "updatedDate": "2025-04-21 10:53:36"
+  },
+  {
+    "houseNo": "0393DZ",
+    "totalPrice": 580.0,
+    "updatedDate": "2025-04-21 10:53:36"
+  },
+  {
+    "houseNo": "6735WW",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 10:53:35"
+  },
+  {
+    "houseNo": "6502TF",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 10:53:35"
+  },
+  {
+    "houseNo": "9492VM",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:53:35"
+  },
+  {
+    "houseNo": "3067FT",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 10:53:35"
+  },
+  {
+    "houseNo": "8995NV",
+    "totalPrice": 1748.0,
+    "updatedDate": "2025-04-21 10:53:35"
+  },
+  {
+    "houseNo": "6217SM",
+    "totalPrice": 1898.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "6570QN",
+    "totalPrice": 988.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "1793GY",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "9856AJ",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "7904BJ",
+    "totalPrice": 1688.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "1777MH",
+    "totalPrice": 2250.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "2931XH",
+    "totalPrice": 1888.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "2956TS",
+    "totalPrice": 4168.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "4792ZG",
+    "totalPrice": 2988.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
+    "houseNo": "5709TL",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:53:32"
+  },
+  {
     "houseNo": "5638YR",
     "totalPrice": 1985.0,
     "updatedDate": "2025-04-11 16:03:44"

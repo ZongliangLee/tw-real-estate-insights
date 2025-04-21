@@ -16,11 +16,12 @@ def generate_daily_and_history_data():
     # 1. 提取當日更新的房價波動物件
     cursor_daily = conn.execute("""
         SELECT p.houseNo, p.totalPrice, p.updatedDate, p.shareURL, 
-               COALESCE(p.commName, p.name) AS displayName
+            COALESCE(p.commName, p.name) AS displayName
         FROM properties p
-        WHERE DATE(p.updatedDate) = ? 
+        WHERE DATE(p.updatedDate) LIKE ?
         AND EXISTS (SELECT 1 FROM propertyHistory h WHERE h.houseNo = p.houseNo)
-    """, (today,))
+    """, ('%' + today + '%',))
+
     daily_data_rows = cursor_daily.fetchall()
 
     # 轉換為 JSON 格式 (daily_data)

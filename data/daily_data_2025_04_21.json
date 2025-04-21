@@ -1,1 +1,1801 @@
-[]
+[
+  {
+    "houseNo": "5709TL",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/5709TL/0/3",
+    "displayName": "幸福森林"
+  },
+  {
+    "houseNo": "0892TY",
+    "totalPrice": 2688.0,
+    "updatedDate": "2025-04-21 10:53:36",
+    "shareURL": "https://sinyi.in/o/0892TY/0/3",
+    "displayName": "登陽城之華"
+  },
+  {
+    "houseNo": "2931XH",
+    "totalPrice": 1868.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/2931XH/0/3",
+    "displayName": "佳昂太和"
+  },
+  {
+    "houseNo": "8271YG",
+    "totalPrice": 1488.0,
+    "updatedDate": "2025-04-21 10:54:55",
+    "shareURL": "https://sinyi.in/o/8271YG/0/3",
+    "displayName": "繁榮八佰-A棟"
+  },
+  {
+    "houseNo": "6275DJ",
+    "totalPrice": 5938.0,
+    "updatedDate": "2025-04-21 10:55:52",
+    "shareURL": "https://sinyi.in/o/6275DJ/0/3",
+    "displayName": "單元十二質感全新車庫美墅"
+  },
+  {
+    "houseNo": "6120NY",
+    "totalPrice": 2065.0,
+    "updatedDate": "2025-04-21 10:55:52",
+    "shareURL": "https://sinyi.in/o/6120NY/0/3",
+    "displayName": "來談！太原ｙｅｓ三房平車"
+  },
+  {
+    "houseNo": "MS127756HB",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:01:12",
+    "shareURL": "https://sinyi.in/o/MS127756HB/0/3",
+    "displayName": "#北屯幸福三房平車"
+  },
+  {
+    "houseNo": "MS129203HB",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:00:36",
+    "shareURL": "https://sinyi.in/o/MS129203HB/0/3",
+    "displayName": "北屯太原輕齡三房平車"
+  },
+  {
+    "houseNo": "RS72201HB",
+    "totalPrice": 2380.0,
+    "updatedDate": "2025-04-21 10:57:43",
+    "shareURL": "https://sinyi.in/o/RS72201HB/0/3",
+    "displayName": "水湳12米大面寬可蓋透套"
+  },
+  {
+    "houseNo": "1956784CT",
+    "totalPrice": 1488.0,
+    "updatedDate": "2025-04-21 11:02:49",
+    "shareURL": "https://sinyi.in/o/1956784CT/0/3",
+    "displayName": "水湳繁榮八佰高樓3房車位"
+  },
+  {
+    "houseNo": "1924688CT",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:03:08",
+    "shareURL": "https://sinyi.in/o/1924688CT/0/3",
+    "displayName": "幸福森林三房平車"
+  },
+  {
+    "houseNo": "RS69915HB",
+    "totalPrice": 3580.0,
+    "updatedDate": "2025-04-21 11:00:08",
+    "shareURL": "https://sinyi.in/o/RS69915HB/0/3",
+    "displayName": "梅川東路旁透天"
+  },
+  {
+    "houseNo": "1955825CT",
+    "totalPrice": 2380.0,
+    "updatedDate": "2025-04-21 10:58:53",
+    "shareURL": "https://sinyi.in/o/1955825CT/0/3",
+    "displayName": "水湳住二建地+平車"
+  },
+  {
+    "houseNo": "1961007CT",
+    "totalPrice": 1968.0,
+    "updatedDate": "2025-04-21 11:03:33",
+    "shareURL": "https://sinyi.in/o/1961007CT/0/3",
+    "displayName": "崇德薈高樓層三房平車"
+  },
+  {
+    "houseNo": "MS127658HB",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:00:39",
+    "shareURL": "https://sinyi.in/o/MS127658HB/0/3",
+    "displayName": "幸福森林三房平車雙衛開窗"
+  },
+  {
+    "houseNo": "1954874CT",
+    "totalPrice": 2380.0,
+    "updatedDate": "2025-04-21 11:02:44",
+    "shareURL": "https://sinyi.in/o/1954874CT/0/3",
+    "displayName": "水湳經貿一路稀有買地送房"
+  },
+  {
+    "houseNo": "1952316CT",
+    "totalPrice": 3288.0,
+    "updatedDate": "2025-04-21 11:02:14",
+    "shareURL": "https://sinyi.in/o/1952316CT/0/3",
+    "displayName": "正11期823公園大四房雙平車"
+  },
+  {
+    "houseNo": "1950157CT",
+    "totalPrice": 4988.0,
+    "updatedDate": "2025-04-21 11:01:50",
+    "shareURL": "https://sinyi.in/o/1950157CT/0/3",
+    "displayName": "天闊臨路角間大地坪雙車透天"
+  },
+  {
+    "houseNo": "1923974CT",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:02:40",
+    "shareURL": "https://sinyi.in/o/1923974CT/0/3",
+    "displayName": "輕屋齡平車美三房"
+  },
+  {
+    "houseNo": "1926373CT",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:01:46",
+    "shareURL": "https://sinyi.in/o/1926373CT/0/3",
+    "displayName": "祥和公園輕屋齡全新歐式風格雙衛開窗三房B1平車"
+  },
+  {
+    "houseNo": "1927827CT",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 11:03:33",
+    "shareURL": "https://sinyi.in/o/1927827CT/0/3",
+    "displayName": "鄰水湳經貿三房車位"
+  },
+  {
+    "houseNo": "1939379CT",
+    "totalPrice": 6280.0,
+    "updatedDate": "2025-04-21 11:03:02",
+    "shareURL": "https://sinyi.in/o/1939379CT/0/3",
+    "displayName": "廍子國小宜居豪邸"
+  },
+  {
+    "houseNo": "6570QN",
+    "totalPrice": 915.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/6570QN/0/3",
+    "displayName": "朋莊"
+  },
+  {
+    "houseNo": "0091CM",
+    "totalPrice": 2880.0,
+    "updatedDate": "2025-04-21 10:53:52",
+    "shareURL": "https://sinyi.in/o/0091CM/0/3",
+    "displayName": "植物苑一"
+  },
+  {
+    "houseNo": "9624KK",
+    "totalPrice": 1085.0,
+    "updatedDate": "2025-04-21 10:53:43",
+    "shareURL": "https://sinyi.in/o/9624KK/0/3",
+    "displayName": "家綠寶"
+  },
+  {
+    "houseNo": "4792ZG",
+    "totalPrice": 2848.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/4792ZG/0/3",
+    "displayName": "青雲道"
+  },
+  {
+    "houseNo": "7615WF",
+    "totalPrice": 3580.0,
+    "updatedDate": "2025-04-21 10:54:32",
+    "shareURL": "https://sinyi.in/o/7615WF/0/3",
+    "displayName": "天蔚"
+  },
+  {
+    "houseNo": "8787ZZ",
+    "totalPrice": 4180.0,
+    "updatedDate": "2025-04-21 10:53:51",
+    "shareURL": "https://sinyi.in/o/8787ZZ/0/3",
+    "displayName": "親家雲硯"
+  },
+  {
+    "houseNo": "7242MX",
+    "totalPrice": 568.0,
+    "updatedDate": "2025-04-21 10:53:43",
+    "shareURL": "https://sinyi.in/o/7242MX/0/3",
+    "displayName": "適首購重新裝潢附平面車位"
+  },
+  {
+    "houseNo": "9492VM",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 10:53:35",
+    "shareURL": "https://sinyi.in/o/9492VM/0/3",
+    "displayName": "【降價】中科高樓美三房"
+  },
+  {
+    "houseNo": "2956TS",
+    "totalPrice": 4100.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/2956TS/0/3",
+    "displayName": "國家一號院"
+  },
+  {
+    "houseNo": "0749AZ",
+    "totalPrice": 1568.0,
+    "updatedDate": "2025-04-21 10:56:03",
+    "shareURL": "https://sinyi.in/o/0749AZ/0/3",
+    "displayName": "降價！勤美低總價絕美透天"
+  },
+  {
+    "houseNo": "8011ZJ",
+    "totalPrice": 3998.0,
+    "updatedDate": "2025-04-21 10:55:09",
+    "shareURL": "https://sinyi.in/o/8011ZJ/0/3",
+    "displayName": "林鼎新願景"
+  },
+  {
+    "houseNo": "5160CM",
+    "totalPrice": 1785.0,
+    "updatedDate": "2025-04-21 10:55:34",
+    "shareURL": "https://sinyi.in/o/5160CM/0/3",
+    "displayName": "稀有！市政新鋭高樓層釋出"
+  },
+  {
+    "houseNo": "9785GN",
+    "totalPrice": 1988.0,
+    "updatedDate": "2025-04-21 10:56:07",
+    "shareURL": "https://sinyi.in/o/9785GN/0/3",
+    "displayName": "出價就談！七期兩房平車"
+  },
+  {
+    "houseNo": "20645T",
+    "totalPrice": 9700.0,
+    "updatedDate": "2025-04-21 10:56:24",
+    "shareURL": "https://sinyi.in/o/20645T/0/3",
+    "displayName": "降價通知大富獨棟電梯豪墅"
+  },
+  {
+    "houseNo": "4422SU",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 10:55:26",
+    "shareURL": "https://sinyi.in/o/4422SU/0/3",
+    "displayName": "國雄無双１３Ｂ８兩房平車"
+  },
+  {
+    "houseNo": "1920AA",
+    "totalPrice": 2988.0,
+    "updatedDate": "2025-04-21 10:55:27",
+    "shareURL": "https://sinyi.in/o/1920AA/0/3",
+    "displayName": "靜謐大隆路國泰臨路美透店"
+  },
+  {
+    "houseNo": "8929VK",
+    "totalPrice": 2490.0,
+    "updatedDate": "2025-04-21 10:56:35",
+    "shareURL": "https://sinyi.in/o/8929VK/0/3",
+    "displayName": "青海創世紀"
+  },
+  {
+    "houseNo": "4998UW",
+    "totalPrice": 1338.0,
+    "updatedDate": "2025-04-21 10:55:35",
+    "shareURL": "https://sinyi.in/o/4998UW/0/3",
+    "displayName": "一心名廈"
+  },
+  {
+    "houseNo": "4922TM",
+    "totalPrice": 2330.0,
+    "updatedDate": "2025-04-21 10:56:47",
+    "shareURL": "https://sinyi.in/o/4922TM/0/3",
+    "displayName": "蘭亭"
+  },
+  {
+    "houseNo": "8060BG",
+    "totalPrice": 3168.0,
+    "updatedDate": "2025-04-21 10:56:08",
+    "shareURL": "https://sinyi.in/o/8060BG/0/3",
+    "displayName": "七期鉑金愛悅高樓稀有釋出"
+  },
+  {
+    "houseNo": "7462YZ",
+    "totalPrice": 3300.0,
+    "updatedDate": "2025-04-21 10:57:05",
+    "shareURL": "https://sinyi.in/o/7462YZ/0/3",
+    "displayName": "柏舍換約在即⚠️稀有釋出"
+  },
+  {
+    "houseNo": "4716FJ",
+    "totalPrice": 1980.0,
+    "updatedDate": "2025-04-21 10:55:37",
+    "shareURL": "https://sinyi.in/o/4716FJ/0/3",
+    "displayName": "東區正自由路金透店"
+  },
+  {
+    "houseNo": "87638C",
+    "totalPrice": 9488.0,
+    "updatedDate": "2025-04-21 10:57:17",
+    "shareURL": "https://sinyi.in/o/87638C/0/3",
+    "displayName": "五期人文精誠★庭院別墅"
+  },
+  {
+    "houseNo": "1949FX",
+    "totalPrice": 1458.0,
+    "updatedDate": "2025-04-21 10:55:44",
+    "shareURL": "https://sinyi.in/o/1949FX/0/3",
+    "displayName": "降價通知即將交屋美上和苑"
+  },
+  {
+    "houseNo": "MS133400HB",
+    "totalPrice": 5680.0,
+    "updatedDate": "2025-04-21 11:01:14",
+    "shareURL": "https://sinyi.in/o/MS133400HB/0/3",
+    "displayName": "雙橡園V1精緻裝潢朝南視野"
+  },
+  {
+    "houseNo": "JS89002HB",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 10:58:21",
+    "shareURL": "https://sinyi.in/o/JS89002HB/0/3",
+    "displayName": "黎明新村七房四樓透天"
+  },
+  {
+    "houseNo": "MS135268HB",
+    "totalPrice": 8529.0,
+    "updatedDate": "2025-04-21 11:00:46",
+    "shareURL": "https://sinyi.in/o/MS135268HB/0/3",
+    "displayName": "寶輝市政~品味奢華高質感"
+  },
+  {
+    "houseNo": "JS88828HB",
+    "totalPrice": 1838.0,
+    "updatedDate": "2025-04-21 10:58:38",
+    "shareURL": "https://sinyi.in/o/JS88828HB/0/3",
+    "displayName": "權美稀有大2房平車釋出"
+  },
+  {
+    "houseNo": "JS88162HB",
+    "totalPrice": 1838.0,
+    "updatedDate": "2025-04-21 10:58:08",
+    "shareURL": "https://sinyi.in/o/JS88162HB/0/3",
+    "displayName": "??【聚合發權美】兩房平車"
+  },
+  {
+    "houseNo": "MS105178HB",
+    "totalPrice": 6880.0,
+    "updatedDate": "2025-04-21 10:58:24",
+    "shareURL": "https://sinyi.in/o/MS105178HB/0/3",
+    "displayName": "七期惠宇~高質感千萬裝潢"
+  },
+  {
+    "houseNo": "MS129637HB",
+    "totalPrice": 1380.0,
+    "updatedDate": "2025-04-21 10:59:58",
+    "shareURL": "https://sinyi.in/o/MS129637HB/0/3",
+    "displayName": "捷運兩房平車"
+  },
+  {
+    "houseNo": "MS122117HB",
+    "totalPrice": 5018.0,
+    "updatedDate": "2025-04-21 10:59:58",
+    "shareURL": "https://sinyi.in/o/MS122117HB/0/3",
+    "displayName": "專任宏銓入深林與樹為鄰"
+  },
+  {
+    "houseNo": "S2521570PA",
+    "totalPrice": 3480.0,
+    "updatedDate": "2025-04-21 11:00:23",
+    "shareURL": "https://sinyi.in/o/S2521570PA/0/3",
+    "displayName": "七期絕佳視野【國雄領域】永恆地標高樓大四"
+  },
+  {
+    "houseNo": "JS75117HB",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 11:00:28",
+    "shareURL": "https://sinyi.in/o/JS75117HB/0/3",
+    "displayName": "??新改建-黎明新村透天"
+  },
+  {
+    "houseNo": "JS82440HB",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 11:00:53",
+    "shareURL": "https://sinyi.in/o/JS82440HB/0/3",
+    "displayName": "黎明新村大地坪6房透天"
+  },
+  {
+    "houseNo": "MS122121HB",
+    "totalPrice": 5018.0,
+    "updatedDate": "2025-04-21 10:58:56",
+    "shareURL": "https://sinyi.in/o/MS122121HB/0/3",
+    "displayName": "專任宏銓入深林返景入林"
+  },
+  {
+    "houseNo": "MS123177HB",
+    "totalPrice": 6580.0,
+    "updatedDate": "2025-04-21 11:01:14",
+    "shareURL": "https://sinyi.in/o/MS123177HB/0/3",
+    "displayName": "高質感水幕｜超大電梯別墅"
+  },
+  {
+    "houseNo": "MS130964HB",
+    "totalPrice": 3699.0,
+    "updatedDate": "2025-04-21 11:01:22",
+    "shareURL": "https://sinyi.in/o/MS130964HB/0/3",
+    "displayName": "寶運尊峰永春國小豪墅"
+  },
+  {
+    "houseNo": "1967430CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:02:33",
+    "shareURL": "https://sinyi.in/o/1967430CT/0/3",
+    "displayName": "東英公園全新整理大面寬平房"
+  },
+  {
+    "houseNo": "S2463022PA",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 11:03:31",
+    "shareURL": "https://sinyi.in/o/S2463022PA/0/3",
+    "displayName": "黎明新村新改建透天大洋房"
+  },
+  {
+    "houseNo": "5990WJ",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 10:54:47",
+    "shareURL": "https://sinyi.in/o/5990WJ/0/3",
+    "displayName": "近車站採光前院美透天"
+  },
+  {
+    "houseNo": "9253JP",
+    "totalPrice": 5288.0,
+    "updatedDate": "2025-04-21 10:53:36",
+    "shareURL": "https://sinyi.in/o/9253JP/0/3",
+    "displayName": "寶輝CITYPARK"
+  },
+  {
+    "houseNo": "8204VU",
+    "totalPrice": 2398.0,
+    "updatedDate": "2025-04-21 10:55:55",
+    "shareURL": "https://sinyi.in/o/8204VU/0/3",
+    "displayName": "中科震後優美別墅"
+  },
+  {
+    "houseNo": "1237QB",
+    "totalPrice": 3958.0,
+    "updatedDate": "2025-04-21 10:56:24",
+    "shareURL": "https://sinyi.in/o/1237QB/0/3",
+    "displayName": "七期泉宇雲鼎Ａ棟三房雙車"
+  },
+  {
+    "houseNo": "3787QF",
+    "totalPrice": 2398.0,
+    "updatedDate": "2025-04-21 10:53:36",
+    "shareURL": "https://sinyi.in/o/3787QF/0/3",
+    "displayName": "惠宇宇山鄰"
+  },
+  {
+    "houseNo": "5303CG",
+    "totalPrice": 1758.0,
+    "updatedDate": "2025-04-21 10:56:07",
+    "shareURL": "https://sinyi.in/o/5303CG/0/3",
+    "displayName": "河南天下"
+  },
+  {
+    "houseNo": "1958039CT",
+    "totalPrice": 398.0,
+    "updatedDate": "2025-04-21 11:03:30",
+    "shareURL": "https://sinyi.in/o/1958039CT/0/3",
+    "displayName": "十二期逢甲小豪宅A"
+  },
+  {
+    "houseNo": "1958070CT",
+    "totalPrice": 418.0,
+    "updatedDate": "2025-04-21 10:59:04",
+    "shareURL": "https://sinyi.in/o/1958070CT/0/3",
+    "displayName": "十二期逢甲小豪宅B"
+  },
+  {
+    "houseNo": "1922944CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:03:03",
+    "shareURL": "https://sinyi.in/o/1922944CT/0/3",
+    "displayName": "近崇德漢口商圈精裝美三房"
+  },
+  {
+    "houseNo": "6068ZN",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:55:37",
+    "shareURL": "https://sinyi.in/o/6068ZN/0/3",
+    "displayName": "冶翠園道次頂兩房平車"
+  },
+  {
+    "houseNo": "9213CS",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 10:55:29",
+    "shareURL": "https://sinyi.in/o/9213CS/0/3",
+    "displayName": "廣三大時代"
+  },
+  {
+    "houseNo": "4623WX",
+    "totalPrice": 5188.0,
+    "updatedDate": "2025-04-21 10:56:53",
+    "shareURL": "https://sinyi.in/o/4623WX/0/3",
+    "displayName": "捷運旁北平優質透店"
+  },
+  {
+    "houseNo": "5566DP",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:56:32",
+    "shareURL": "https://sinyi.in/o/5566DP/0/3",
+    "displayName": "泉宇未來"
+  },
+  {
+    "houseNo": "3812QL",
+    "totalPrice": 3198.0,
+    "updatedDate": "2025-04-21 10:55:37",
+    "shareURL": "https://sinyi.in/o/3812QL/0/3",
+    "displayName": "近軍功７４松竹臨路透店"
+  },
+  {
+    "houseNo": "YS176990HB",
+    "totalPrice": 1780.0,
+    "updatedDate": "2025-04-21 10:58:09",
+    "shareURL": "https://sinyi.in/o/YS176990HB/0/3",
+    "displayName": "林鼎日光寓精裝大兩房平車"
+  },
+  {
+    "houseNo": "1974831CT",
+    "totalPrice": 2398.0,
+    "updatedDate": "2025-04-21 11:02:36",
+    "shareURL": "https://sinyi.in/o/1974831CT/0/3",
+    "displayName": "中科朝南5房有獨立車庫"
+  },
+  {
+    "houseNo": "1975217CT",
+    "totalPrice": 1880.0,
+    "updatedDate": "2025-04-21 11:02:35",
+    "shareURL": "https://sinyi.in/o/1975217CT/0/3",
+    "displayName": "工學&美村商圈稀有大坪數四房打通戶+平車"
+  },
+  {
+    "houseNo": "MS136662HB",
+    "totalPrice": 1198.0,
+    "updatedDate": "2025-04-21 10:59:53",
+    "shareURL": "https://sinyi.in/o/MS136662HB/0/3",
+    "displayName": "椰城社區面對樹德公園美三房"
+  },
+  {
+    "houseNo": "0773HG",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 10:53:49",
+    "shareURL": "https://sinyi.in/o/0773HG/0/3",
+    "displayName": "瑞聯天地E區"
+  },
+  {
+    "houseNo": "JS90395HB",
+    "totalPrice": 1428.0,
+    "updatedDate": "2025-04-21 11:00:17",
+    "shareURL": "https://sinyi.in/o/JS90395HB/0/3",
+    "displayName": "菁科2MAX"
+  },
+  {
+    "houseNo": "0393DZ",
+    "totalPrice": 558.0,
+    "updatedDate": "2025-04-21 10:53:36",
+    "shareURL": "https://sinyi.in/o/0393DZ/0/3",
+    "displayName": "羅馬假期2期"
+  },
+  {
+    "houseNo": "0429LX",
+    "totalPrice": 1450.0,
+    "updatedDate": "2025-04-21 10:55:35",
+    "shareURL": "https://sinyi.in/o/0429LX/0/3",
+    "displayName": "頂好文心"
+  },
+  {
+    "houseNo": "6735WW",
+    "totalPrice": 2218.0,
+    "updatedDate": "2025-04-21 10:53:35",
+    "shareURL": "https://sinyi.in/o/6735WW/0/3",
+    "displayName": "一緒"
+  },
+  {
+    "houseNo": "7502GC",
+    "totalPrice": 3380.0,
+    "updatedDate": "2025-04-21 10:57:08",
+    "shareURL": "https://sinyi.in/o/7502GC/0/3",
+    "displayName": "大塊藏硯｜大三房雙平車"
+  },
+  {
+    "houseNo": "RS75398HB",
+    "totalPrice": 2380.0,
+    "updatedDate": "2025-04-21 10:59:58",
+    "shareURL": "https://sinyi.in/o/RS75398HB/0/3",
+    "displayName": "水湳建地+平房"
+  },
+  {
+    "houseNo": "JS90713HB",
+    "totalPrice": 2380.0,
+    "updatedDate": "2025-04-21 11:00:25",
+    "shareURL": "https://sinyi.in/o/JS90713HB/0/3",
+    "displayName": "北屯中國醫三房平車朝南精裝戶"
+  },
+  {
+    "houseNo": "MS137766HB",
+    "totalPrice": 2398.0,
+    "updatedDate": "2025-04-21 10:59:35",
+    "shareURL": "https://sinyi.in/o/MS137766HB/0/3",
+    "displayName": "登陽春賞大三房平車視野戶"
+  },
+  {
+    "houseNo": "JS90883HB",
+    "totalPrice": 1299.0,
+    "updatedDate": "2025-04-21 10:59:51",
+    "shareURL": "https://sinyi.in/o/JS90883HB/0/3",
+    "displayName": "精科溫馨兩房平車"
+  },
+  {
+    "houseNo": "1982153CT",
+    "totalPrice": 1838.0,
+    "updatedDate": "2025-04-21 11:01:32",
+    "shareURL": "https://sinyi.in/o/1982153CT/0/3",
+    "displayName": "樹孝商圈*中國醫BOT全新未住美三房+平車"
+  },
+  {
+    "houseNo": "MS137810HB",
+    "totalPrice": 6980.0,
+    "updatedDate": "2025-04-21 11:00:08",
+    "shareURL": "https://sinyi.in/o/MS137810HB/0/3",
+    "displayName": "逢甲全新18間精品電梯透套"
+  },
+  {
+    "houseNo": "JS90865HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:00:08",
+    "shareURL": "https://sinyi.in/o/JS90865HB/0/3",
+    "displayName": "新光三越樂活城市兩房平車"
+  },
+  {
+    "houseNo": "1831ZK",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 10:54:50",
+    "shareURL": "https://sinyi.in/o/1831ZK/0/3",
+    "displayName": "小資成家園道視野精裝宅"
+  },
+  {
+    "houseNo": "MS137926HB",
+    "totalPrice": 2498.0,
+    "updatedDate": "2025-04-21 10:59:22",
+    "shareURL": "https://sinyi.in/o/MS137926HB/0/3",
+    "displayName": "水湳漢神三房平車"
+  },
+  {
+    "houseNo": "9948LT",
+    "totalPrice": 2388.0,
+    "updatedDate": "2025-04-21 10:55:11",
+    "shareURL": "https://sinyi.in/o/9948LT/0/3",
+    "displayName": "東區大地坪孝親美透天"
+  },
+  {
+    "houseNo": "MS138113HB",
+    "totalPrice": 1690.0,
+    "updatedDate": "2025-04-21 10:57:57",
+    "shareURL": "https://sinyi.in/o/MS138113HB/0/3",
+    "displayName": "曉明女中前院車庫別墅"
+  },
+  {
+    "houseNo": "MS138236HB",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 10:58:11",
+    "shareURL": "https://sinyi.in/o/MS138236HB/0/3",
+    "displayName": "科博館高CP值視野戶三房"
+  },
+  {
+    "houseNo": "MS138354HB",
+    "totalPrice": 1138.0,
+    "updatedDate": "2025-04-21 10:58:55",
+    "shareURL": "https://sinyi.in/o/MS138354HB/0/3",
+    "displayName": "西屯漢口行情內電梯三房"
+  },
+  {
+    "houseNo": "RS75932HB",
+    "totalPrice": 2080.0,
+    "updatedDate": "2025-04-21 11:00:05",
+    "shareURL": "https://sinyi.in/o/RS75932HB/0/3",
+    "displayName": "曉明女中旁全新整理車庫別墅"
+  },
+  {
+    "houseNo": "RS75997HB",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:58:56",
+    "shareURL": "https://sinyi.in/o/RS75997HB/0/3",
+    "displayName": "南區工學商圈三房+雙平車"
+  },
+  {
+    "houseNo": "6245LR",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:54:18",
+    "shareURL": "https://sinyi.in/o/6245LR/0/3",
+    "displayName": "世界之心"
+  },
+  {
+    "houseNo": "S2743866PA",
+    "totalPrice": 1988.0,
+    "updatedDate": "2025-04-21 11:00:22",
+    "shareURL": "https://sinyi.in/o/S2743866PA/0/3",
+    "displayName": "中山醫旁典雅裝潢3房+平車"
+  },
+  {
+    "houseNo": "8223CR",
+    "totalPrice": 1650.0,
+    "updatedDate": "2025-04-21 10:55:00",
+    "shareURL": "https://sinyi.in/o/8223CR/0/3",
+    "displayName": "登陽林映道２房雙平面車位"
+  },
+  {
+    "houseNo": "5722RM",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 10:53:43",
+    "shareURL": "https://sinyi.in/o/5722RM/0/3",
+    "displayName": "大城迎好事"
+  },
+  {
+    "houseNo": "4748AG",
+    "totalPrice": 3688.0,
+    "updatedDate": "2025-04-21 10:54:15",
+    "shareURL": "https://sinyi.in/o/4748AG/0/3",
+    "displayName": "晴耕雨讀"
+  },
+  {
+    "houseNo": "7722VH",
+    "totalPrice": 1368.0,
+    "updatedDate": "2025-04-21 10:54:15",
+    "shareURL": "https://sinyi.in/o/7722VH/0/3",
+    "displayName": "文心會館"
+  },
+  {
+    "houseNo": "8455AD",
+    "totalPrice": 2350.0,
+    "updatedDate": "2025-04-21 10:53:38",
+    "shareURL": "https://sinyi.in/o/8455AD/0/3",
+    "displayName": "鄉林麗池"
+  },
+  {
+    "houseNo": "9175KS",
+    "totalPrice": 3680.0,
+    "updatedDate": "2025-04-21 10:54:57",
+    "shareURL": "https://sinyi.in/o/9175KS/0/3",
+    "displayName": "北屯１１期久石讓臨路美墅"
+  },
+  {
+    "houseNo": "19609M",
+    "totalPrice": 3298.0,
+    "updatedDate": "2025-04-21 10:55:04",
+    "shareURL": "https://sinyi.in/o/19609M/0/3",
+    "displayName": "興大寶藏"
+  },
+  {
+    "houseNo": "3249HY",
+    "totalPrice": 1858.0,
+    "updatedDate": "2025-04-21 10:53:58",
+    "shareURL": "https://sinyi.in/o/3249HY/0/3",
+    "displayName": "降價！專任新東區視野三房"
+  },
+  {
+    "houseNo": "7401DG",
+    "totalPrice": 5498.0,
+    "updatedDate": "2025-04-21 10:56:44",
+    "shareURL": "https://sinyi.in/o/7401DG/0/3",
+    "displayName": "由鉅大謙"
+  },
+  {
+    "houseNo": "2861HQ",
+    "totalPrice": 2588.0,
+    "updatedDate": "2025-04-21 10:53:40",
+    "shareURL": "https://sinyi.in/o/2861HQ/0/3",
+    "displayName": "美景浩瀚ＭＶＰ四房雙平車"
+  },
+  {
+    "houseNo": "1777MH",
+    "totalPrice": 2100.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/1777MH/0/3",
+    "displayName": "I時尚"
+  },
+  {
+    "houseNo": "5754TV",
+    "totalPrice": 2188.0,
+    "updatedDate": "2025-04-21 10:53:54",
+    "shareURL": "https://sinyi.in/o/5754TV/0/3",
+    "displayName": "富宇領袖特區"
+  },
+  {
+    "houseNo": "0581PH",
+    "totalPrice": 2988.0,
+    "updatedDate": "2025-04-21 10:55:35",
+    "shareURL": "https://sinyi.in/o/0581PH/0/3",
+    "displayName": "惠宇禮仁"
+  },
+  {
+    "houseNo": "6687RG",
+    "totalPrice": 2580.0,
+    "updatedDate": "2025-04-21 10:56:57",
+    "shareURL": "https://sinyi.in/o/6687RG/0/3",
+    "displayName": "專任台中新站視野三房雙車"
+  },
+  {
+    "houseNo": "MS139977HB",
+    "totalPrice": 2588.0,
+    "updatedDate": "2025-04-21 10:58:06",
+    "shareURL": "https://sinyi.in/o/MS139977HB/0/3",
+    "displayName": "水湳經貿｜國聚之界大三房平車"
+  },
+  {
+    "houseNo": "MS140256HB",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 10:58:21",
+    "shareURL": "https://sinyi.in/o/MS140256HB/0/3",
+    "displayName": "朝南臨路優質透天金店面"
+  },
+  {
+    "houseNo": "JS91981HB",
+    "totalPrice": 4580.0,
+    "updatedDate": "2025-04-21 11:00:54",
+    "shareURL": "https://sinyi.in/o/JS91981HB/0/3",
+    "displayName": "秋紅谷公園之鄉林皇居4車"
+  },
+  {
+    "houseNo": "MS140111HB",
+    "totalPrice": 1250.0,
+    "updatedDate": "2025-04-21 10:59:04",
+    "shareURL": "https://sinyi.in/o/MS140111HB/0/3",
+    "displayName": "東山商圈絕版超大三房平車"
+  },
+  {
+    "houseNo": "MS139989HB",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 10:59:20",
+    "shareURL": "https://sinyi.in/o/MS139989HB/0/3",
+    "displayName": "北屯全新整理幸福三房平車"
+  },
+  {
+    "houseNo": "JS91429HB",
+    "totalPrice": 2880.0,
+    "updatedDate": "2025-04-21 10:59:22",
+    "shareURL": "https://sinyi.in/o/JS91429HB/0/3",
+    "displayName": "五期~北歐風格高樓視野景觀戶"
+  },
+  {
+    "houseNo": "RS77136HB",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:59:34",
+    "shareURL": "https://sinyi.in/o/RS77136HB/0/3",
+    "displayName": "九期重劃區旁-超大4房+平車"
+  },
+  {
+    "houseNo": "MS139523HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:59:35",
+    "shareURL": "https://sinyi.in/o/MS139523HB/0/3",
+    "displayName": "南區超大雙露台雙車視野戶"
+  },
+  {
+    "houseNo": "JS91851HB",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:59:56",
+    "shareURL": "https://sinyi.in/o/JS91851HB/0/3",
+    "displayName": "世界花園邊間高樓2房平車"
+  },
+  {
+    "houseNo": "MS140202HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:00:07",
+    "shareURL": "https://sinyi.in/o/MS140202HB/0/3",
+    "displayName": "南區樓中樓雙車位"
+  },
+  {
+    "houseNo": "MS139033HB",
+    "totalPrice": 1838.0,
+    "updatedDate": "2025-04-21 11:00:35",
+    "shareURL": "https://sinyi.in/o/MS139033HB/0/3",
+    "displayName": "七期惠文學區四房平車"
+  },
+  {
+    "houseNo": "JS91725HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:59:56",
+    "shareURL": "https://sinyi.in/o/JS91725HB/0/3",
+    "displayName": "興大特區視野樓中樓雙車位"
+  },
+  {
+    "houseNo": "MS139086HB",
+    "totalPrice": 1198.0,
+    "updatedDate": "2025-04-21 10:58:44",
+    "shareURL": "https://sinyi.in/o/MS139086HB/0/3",
+    "displayName": "大降價大城佛羅里達精裝兩房車位"
+  },
+  {
+    "houseNo": "1987990CT",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 11:01:32",
+    "shareURL": "https://sinyi.in/o/1987990CT/0/3",
+    "displayName": "北屯廍子美墅"
+  },
+  {
+    "houseNo": "1990802CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:01:38",
+    "shareURL": "https://sinyi.in/o/1990802CT/0/3",
+    "displayName": "國圖館視野美3房樓中樓雙車位"
+  },
+  {
+    "houseNo": "1993796CT",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:01:44",
+    "shareURL": "https://sinyi.in/o/1993796CT/0/3",
+    "displayName": "幸福森林｜溫馨三房附平車"
+  },
+  {
+    "houseNo": "1991761CT",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 11:02:01",
+    "shareURL": "https://sinyi.in/o/1991761CT/0/3",
+    "displayName": "京國特區3房雙車露台戶"
+  },
+  {
+    "houseNo": "1990738CT",
+    "totalPrice": 338.0,
+    "updatedDate": "2025-04-21 11:02:57",
+    "shareURL": "https://sinyi.in/o/1990738CT/0/3",
+    "displayName": "教育大學樓中樓美套房"
+  },
+  {
+    "houseNo": "1988440CT",
+    "totalPrice": 1690.0,
+    "updatedDate": "2025-04-21 11:03:05",
+    "shareURL": "https://sinyi.in/o/1988440CT/0/3",
+    "displayName": "曉明女中臨路前院美墅"
+  },
+  {
+    "houseNo": "1990175CT",
+    "totalPrice": 218.0,
+    "updatedDate": "2025-04-21 11:02:11",
+    "shareURL": "https://sinyi.in/o/1990175CT/0/3",
+    "displayName": "中科榮總朝南套房"
+  },
+  {
+    "houseNo": "1991657CT",
+    "totalPrice": 338.0,
+    "updatedDate": "2025-04-21 11:03:28",
+    "shareURL": "https://sinyi.in/o/1991657CT/0/3",
+    "displayName": "金殿888樓中樓一房一廳"
+  },
+  {
+    "houseNo": "9566HF",
+    "totalPrice": 2880.0,
+    "updatedDate": "2025-04-21 10:55:20",
+    "shareURL": "https://sinyi.in/o/9566HF/0/3",
+    "displayName": "LAVIE"
+  },
+  {
+    "houseNo": "7844WW",
+    "totalPrice": 2198.0,
+    "updatedDate": "2025-04-21 10:53:36",
+    "shareURL": "https://sinyi.in/o/7844WW/0/3",
+    "displayName": "大城樂好事"
+  },
+  {
+    "houseNo": "1992451CT",
+    "totalPrice": 1728.0,
+    "updatedDate": "2025-04-21 10:59:59",
+    "shareURL": "https://sinyi.in/o/1992451CT/0/3",
+    "displayName": "世貿中科樓中樓"
+  },
+  {
+    "houseNo": "MS140697HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:58:19",
+    "shareURL": "https://sinyi.in/o/MS140697HB/0/3",
+    "displayName": "南區三房大露台雙車位"
+  },
+  {
+    "houseNo": "1270LU",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:56:57",
+    "shareURL": "https://sinyi.in/o/1270LU/0/3",
+    "displayName": "櫻花孩子王2"
+  },
+  {
+    "houseNo": "3067FT",
+    "totalPrice": 1998.0,
+    "updatedDate": "2025-04-21 10:53:35",
+    "shareURL": "https://sinyi.in/o/3067FT/0/3",
+    "displayName": "強推，登陽建設三房平車"
+  },
+  {
+    "houseNo": "1173DN",
+    "totalPrice": 1830.0,
+    "updatedDate": "2025-04-21 10:55:31",
+    "shareURL": "https://sinyi.in/o/1173DN/0/3",
+    "displayName": "奇摩市"
+  },
+  {
+    "houseNo": "8706PH",
+    "totalPrice": 2780.0,
+    "updatedDate": "2025-04-21 10:57:33",
+    "shareURL": "https://sinyi.in/o/8706PH/0/3",
+    "displayName": "專任★漢口路四段潛力透天"
+  },
+  {
+    "houseNo": "MS140733HB",
+    "totalPrice": 2980.0,
+    "updatedDate": "2025-04-21 10:58:51",
+    "shareURL": "https://sinyi.in/o/MS140733HB/0/3",
+    "displayName": "精銳Fun未來高樓層三房平車"
+  },
+  {
+    "houseNo": "MS140747HB",
+    "totalPrice": 1620.0,
+    "updatedDate": "2025-04-21 10:59:14",
+    "shareURL": "https://sinyi.in/o/MS140747HB/0/3",
+    "displayName": "G3松竹領航竹月館2+1房"
+  },
+  {
+    "houseNo": "1997789CT",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 11:00:30",
+    "shareURL": "https://sinyi.in/o/1997789CT/0/3",
+    "displayName": "機捷樹海朝南四房雙平車"
+  },
+  {
+    "houseNo": "7998PL",
+    "totalPrice": 1468.0,
+    "updatedDate": "2025-04-21 10:54:13",
+    "shareURL": "https://sinyi.in/o/7998PL/0/3",
+    "displayName": "勝美市"
+  },
+  {
+    "houseNo": "2525TS",
+    "totalPrice": 1068.0,
+    "updatedDate": "2025-04-21 10:53:38",
+    "shareURL": "https://sinyi.in/o/2525TS/0/3",
+    "displayName": "大俊國"
+  },
+  {
+    "houseNo": "3892LZ",
+    "totalPrice": 1268.0,
+    "updatedDate": "2025-04-21 10:56:11",
+    "shareURL": "https://sinyi.in/o/3892LZ/0/3",
+    "displayName": "五期美裝潢２房１室視野戶"
+  },
+  {
+    "houseNo": "JS92461HB",
+    "totalPrice": 7280.0,
+    "updatedDate": "2025-04-21 11:00:49",
+    "shareURL": "https://sinyi.in/o/JS92461HB/0/3",
+    "displayName": "國美館九米面寬透天店面"
+  },
+  {
+    "houseNo": "6502TF",
+    "totalPrice": 2050.0,
+    "updatedDate": "2025-04-21 10:53:35",
+    "shareURL": "https://sinyi.in/o/6502TF/0/3",
+    "displayName": "親家新匯"
+  },
+  {
+    "houseNo": "2015ST",
+    "totalPrice": 1250.0,
+    "updatedDate": "2025-04-21 10:57:05",
+    "shareURL": "https://sinyi.in/o/2015ST/0/3",
+    "displayName": "近公園－河畔視野大三房"
+  },
+  {
+    "houseNo": "1793GY",
+    "totalPrice": 1638.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/1793GY/0/3",
+    "displayName": "雲世紀C區梵谷星空"
+  },
+  {
+    "houseNo": "JS92607HB",
+    "totalPrice": 1280.0,
+    "updatedDate": "2025-04-21 10:57:44",
+    "shareURL": "https://sinyi.in/o/JS92607HB/0/3",
+    "displayName": "彩虹城I"
+  },
+  {
+    "houseNo": "JS92571HB",
+    "totalPrice": 1788.0,
+    "updatedDate": "2025-04-21 10:59:37",
+    "shareURL": "https://sinyi.in/o/JS92571HB/0/3",
+    "displayName": "文心愛悅帝王景觀2房平車"
+  },
+  {
+    "houseNo": "1999725CT",
+    "totalPrice": 2698.0,
+    "updatedDate": "2025-04-21 11:01:44",
+    "shareURL": "https://sinyi.in/o/1999725CT/0/3",
+    "displayName": "仁美國小大地坪車庫透天"
+  },
+  {
+    "houseNo": "6300DJ",
+    "totalPrice": 2698.0,
+    "updatedDate": "2025-04-21 10:55:09",
+    "shareURL": "https://sinyi.in/o/6300DJ/0/3",
+    "displayName": "未來洲際．臨路美別墅"
+  },
+  {
+    "houseNo": "JS92717HB",
+    "totalPrice": 2980.0,
+    "updatedDate": "2025-04-21 10:58:19",
+    "shareURL": "https://sinyi.in/o/JS92717HB/0/3",
+    "displayName": "美術館旁全新整理五房透天"
+  },
+  {
+    "houseNo": "JS92735HB",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:58:32",
+    "shareURL": "https://sinyi.in/o/JS92735HB/0/3",
+    "displayName": "3房高樓層大露臺雙車位景觀戶"
+  },
+  {
+    "houseNo": "2000675CT",
+    "totalPrice": 1068.0,
+    "updatedDate": "2025-04-21 11:03:33",
+    "shareURL": "https://sinyi.in/o/2000675CT/0/3",
+    "displayName": "大俊國2房車位寶輝旁"
+  },
+  {
+    "houseNo": "6217SM",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/6217SM/0/3",
+    "displayName": "勝美彩虹城二期-勝美恆美"
+  },
+  {
+    "houseNo": "7904BJ",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/7904BJ/0/3",
+    "displayName": "三采藝術園區"
+  },
+  {
+    "houseNo": "5015HN",
+    "totalPrice": 2168.0,
+    "updatedDate": "2025-04-21 10:54:01",
+    "shareURL": "https://sinyi.in/o/5015HN/0/3",
+    "displayName": "寶輝科博觀邸"
+  },
+  {
+    "houseNo": "6697PZ",
+    "totalPrice": 1888.0,
+    "updatedDate": "2025-04-21 10:54:01",
+    "shareURL": "https://sinyi.in/o/6697PZ/0/3",
+    "displayName": "佳福青樂"
+  },
+  {
+    "houseNo": "4041GQ",
+    "totalPrice": 1358.0,
+    "updatedDate": "2025-04-21 10:54:01",
+    "shareURL": "https://sinyi.in/o/4041GQ/0/3",
+    "displayName": "鮮境"
+  },
+  {
+    "houseNo": "1924UQ",
+    "totalPrice": 1798.0,
+    "updatedDate": "2025-04-21 10:54:07",
+    "shareURL": "https://sinyi.in/o/1924UQ/0/3",
+    "displayName": "新杜拜"
+  },
+  {
+    "houseNo": "3969RS",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:54:49",
+    "shareURL": "https://sinyi.in/o/3969RS/0/3",
+    "displayName": "總太美樂地"
+  },
+  {
+    "houseNo": "8995NV",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:53:35",
+    "shareURL": "https://sinyi.in/o/8995NV/0/3",
+    "displayName": "華第"
+  },
+  {
+    "houseNo": "1136JF",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:53:38",
+    "shareURL": "https://sinyi.in/o/1136JF/0/3",
+    "displayName": "凱旋天下稀有裝潢戶！！"
+  },
+  {
+    "houseNo": "2714PV",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:54:13",
+    "shareURL": "https://sinyi.in/o/2714PV/0/3",
+    "displayName": "勝美LAONE"
+  },
+  {
+    "houseNo": "2753SK",
+    "totalPrice": 2688.0,
+    "updatedDate": "2025-04-21 10:54:42",
+    "shareURL": "https://sinyi.in/o/2753SK/0/3",
+    "displayName": "浩瀚中港層峰"
+  },
+  {
+    "houseNo": "3905CW",
+    "totalPrice": 1898.0,
+    "updatedDate": "2025-04-21 10:54:36",
+    "shareURL": "https://sinyi.in/o/3905CW/0/3",
+    "displayName": "泰鉅興大苑"
+  },
+  {
+    "houseNo": "8235DZ",
+    "totalPrice": 1728.0,
+    "updatedDate": "2025-04-21 10:54:36",
+    "shareURL": "https://sinyi.in/o/8235DZ/0/3",
+    "displayName": "宏台松御"
+  },
+  {
+    "houseNo": "9783MJ",
+    "totalPrice": 3358.0,
+    "updatedDate": "2025-04-21 10:54:40",
+    "shareURL": "https://sinyi.in/o/9783MJ/0/3",
+    "displayName": "泉宇科博苑"
+  },
+  {
+    "houseNo": "2947FB",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:54:44",
+    "shareURL": "https://sinyi.in/o/2947FB/0/3",
+    "displayName": "三月花見"
+  },
+  {
+    "houseNo": "8874NT",
+    "totalPrice": 1048.0,
+    "updatedDate": "2025-04-21 10:53:40",
+    "shareURL": "https://sinyi.in/o/8874NT/0/3",
+    "displayName": "大地華城-明華樓"
+  },
+  {
+    "houseNo": "1041FQ",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:54:47",
+    "shareURL": "https://sinyi.in/o/1041FQ/0/3",
+    "displayName": "晴綻花園"
+  },
+  {
+    "houseNo": "6098BS",
+    "totalPrice": 2158.0,
+    "updatedDate": "2025-04-21 10:54:49",
+    "shareURL": "https://sinyi.in/o/6098BS/0/3",
+    "displayName": "閱文心"
+  },
+  {
+    "houseNo": "2927PJ",
+    "totalPrice": 858.0,
+    "updatedDate": "2025-04-21 10:55:11",
+    "shareURL": "https://sinyi.in/o/2927PJ/0/3",
+    "displayName": "莒光新城"
+  },
+  {
+    "houseNo": "8444VV",
+    "totalPrice": 1499.0,
+    "updatedDate": "2025-04-21 10:55:00",
+    "shareURL": "https://sinyi.in/o/8444VV/0/3",
+    "displayName": "春風得意"
+  },
+  {
+    "houseNo": "0905XW",
+    "totalPrice": 2488.0,
+    "updatedDate": "2025-04-21 10:55:24",
+    "shareURL": "https://sinyi.in/o/0905XW/0/3",
+    "displayName": "朝南孝親房優質透天"
+  },
+  {
+    "houseNo": "7186LX",
+    "totalPrice": 1758.0,
+    "updatedDate": "2025-04-21 10:55:34",
+    "shareURL": "https://sinyi.in/o/7186LX/0/3",
+    "displayName": "微笑世紀A區/微笑之心"
+  },
+  {
+    "houseNo": "2288FJ",
+    "totalPrice": 1500.0,
+    "updatedDate": "2025-04-21 10:55:16",
+    "shareURL": "https://sinyi.in/o/2288FJ/0/3",
+    "displayName": "北屯臨路透天"
+  },
+  {
+    "houseNo": "6085XL",
+    "totalPrice": 2680.0,
+    "updatedDate": "2025-04-21 10:55:51",
+    "shareURL": "https://sinyi.in/o/6085XL/0/3",
+    "displayName": "北屯區近公園好屋況美墅"
+  },
+  {
+    "houseNo": "1656NZ",
+    "totalPrice": 4480.0,
+    "updatedDate": "2025-04-21 10:55:51",
+    "shareURL": "https://sinyi.in/o/1656NZ/0/3",
+    "displayName": "新接！角間大地坪透天！"
+  },
+  {
+    "houseNo": "2709ZL",
+    "totalPrice": 1800.0,
+    "updatedDate": "2025-04-21 10:56:03",
+    "shareURL": "https://sinyi.in/o/2709ZL/0/3",
+    "displayName": "近中央公園旁稀有透天"
+  },
+  {
+    "houseNo": "6994GY",
+    "totalPrice": 1780.0,
+    "updatedDate": "2025-04-21 10:53:43",
+    "shareURL": "https://sinyi.in/o/6994GY/0/3",
+    "displayName": "日光寓"
+  },
+  {
+    "houseNo": "2317WS",
+    "totalPrice": 1998.0,
+    "updatedDate": "2025-04-21 10:53:43",
+    "shareURL": "https://sinyi.in/o/2317WS/0/3",
+    "displayName": "松竹領航-松風館"
+  },
+  {
+    "houseNo": "6818FS",
+    "totalPrice": 1838.0,
+    "updatedDate": "2025-04-21 10:53:55",
+    "shareURL": "https://sinyi.in/o/6818FS/0/3",
+    "displayName": "聚合發權美"
+  },
+  {
+    "houseNo": "4419AL",
+    "totalPrice": 6580.0,
+    "updatedDate": "2025-04-21 10:55:54",
+    "shareURL": "https://sinyi.in/o/4419AL/0/3",
+    "displayName": "樹義國小質感別墅"
+  },
+  {
+    "houseNo": "9856AJ",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:53:32",
+    "shareURL": "https://sinyi.in/o/9856AJ/0/3",
+    "displayName": "五月天嵐"
+  },
+  {
+    "houseNo": "7344QP",
+    "totalPrice": 968.0,
+    "updatedDate": "2025-04-21 10:53:57",
+    "shareURL": "https://sinyi.in/o/7344QP/0/3",
+    "displayName": "建義ATM"
+  },
+  {
+    "houseNo": "7735GN",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:56:30",
+    "shareURL": "https://sinyi.in/o/7735GN/0/3",
+    "displayName": "建義ATM"
+  },
+  {
+    "houseNo": "9840DY",
+    "totalPrice": 1658.0,
+    "updatedDate": "2025-04-21 10:54:03",
+    "shareURL": "https://sinyi.in/o/9840DY/0/3",
+    "displayName": "大福新城三房"
+  },
+  {
+    "houseNo": "1529BJ",
+    "totalPrice": 1898.0,
+    "updatedDate": "2025-04-21 10:56:32",
+    "shareURL": "https://sinyi.in/o/1529BJ/0/3",
+    "displayName": "聚佳捷作"
+  },
+  {
+    "houseNo": "2167RQ",
+    "totalPrice": 1298.0,
+    "updatedDate": "2025-04-21 10:55:26",
+    "shareURL": "https://sinyi.in/o/2167RQ/0/3",
+    "displayName": "昂峰惟美兩衛有車位"
+  },
+  {
+    "houseNo": "1376VC",
+    "totalPrice": 2268.0,
+    "updatedDate": "2025-04-21 10:57:14",
+    "shareURL": "https://sinyi.in/o/1376VC/0/3",
+    "displayName": "惠宇碧柳兩房兩衛平車"
+  },
+  {
+    "houseNo": "2379TL",
+    "totalPrice": 1168.0,
+    "updatedDate": "2025-04-21 10:56:56",
+    "shareURL": "https://sinyi.in/o/2379TL/0/3",
+    "displayName": "學區宅！邊間大四房帝王戶"
+  },
+  {
+    "houseNo": "9834RF",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:54:04",
+    "shareURL": "https://sinyi.in/o/9834RF/0/3",
+    "displayName": "寓上逢甲"
+  },
+  {
+    "houseNo": "4687JP",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:56:05",
+    "shareURL": "https://sinyi.in/o/4687JP/0/3",
+    "displayName": "達麗冶翠帝王Ｂ７兩房兩衛"
+  },
+  {
+    "houseNo": "4230GD",
+    "totalPrice": 1680.0,
+    "updatedDate": "2025-04-21 10:56:40",
+    "shareURL": "https://sinyi.in/o/4230GD/0/3",
+    "displayName": "中港THEONE"
+  },
+  {
+    "houseNo": "7416XG",
+    "totalPrice": 1858.0,
+    "updatedDate": "2025-04-21 10:55:43",
+    "shareURL": "https://sinyi.in/o/7416XG/0/3",
+    "displayName": "急售！☀️稀有太原ＹＥＳ"
+  },
+  {
+    "houseNo": "8645YC",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:56:10",
+    "shareURL": "https://sinyi.in/o/8645YC/0/3",
+    "displayName": "昂峰惟美二房二衛附車位"
+  },
+  {
+    "houseNo": "MS141551HB",
+    "totalPrice": 2488.0,
+    "updatedDate": "2025-04-21 10:58:05",
+    "shareURL": "https://sinyi.in/o/MS141551HB/0/3",
+    "displayName": "大降價200萬南屯臨路透天"
+  },
+  {
+    "houseNo": "MS143713HB",
+    "totalPrice": 1128.0,
+    "updatedDate": "2025-04-21 10:58:05",
+    "shareURL": "https://sinyi.in/o/MS143713HB/0/3",
+    "displayName": "總太聚作絕美奶油風兩房平車"
+  },
+  {
+    "houseNo": "MS142412HB",
+    "totalPrice": 398.0,
+    "updatedDate": "2025-04-21 10:58:11",
+    "shareURL": "https://sinyi.in/o/MS142412HB/0/3",
+    "displayName": "文心崇德樓中樓捷運宅"
+  },
+  {
+    "houseNo": "JS94291HB",
+    "totalPrice": 968.0,
+    "updatedDate": "2025-04-21 10:58:13",
+    "shareURL": "https://sinyi.in/o/JS94291HB/0/3",
+    "displayName": "低總價安心成家好房"
+  },
+  {
+    "houseNo": "MS143898HB",
+    "totalPrice": 3680.0,
+    "updatedDate": "2025-04-21 10:58:16",
+    "shareURL": "https://sinyi.in/o/MS143898HB/0/3",
+    "displayName": "11期住三臨路邊間美墅"
+  },
+  {
+    "houseNo": "MS143255HB",
+    "totalPrice": 1280.0,
+    "updatedDate": "2025-04-21 10:58:27",
+    "shareURL": "https://sinyi.in/o/MS143255HB/0/3",
+    "displayName": "國圖館全新二房休旅車位"
+  },
+  {
+    "houseNo": "MS143679HB",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 10:58:27",
+    "shareURL": "https://sinyi.in/o/MS143679HB/0/3",
+    "displayName": "大城五月天嵐兩房車樹梢景觀戶"
+  },
+  {
+    "houseNo": "JS92874HB",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 10:58:29",
+    "shareURL": "https://sinyi.in/o/JS92874HB/0/3",
+    "displayName": "和慕3+1房視野戶"
+  },
+  {
+    "houseNo": "RS80553HB",
+    "totalPrice": 1398.0,
+    "updatedDate": "2025-04-21 10:58:44",
+    "shareURL": "https://sinyi.in/o/RS80553HB/0/3",
+    "displayName": "協和澄心絕美超大兩房平車"
+  },
+  {
+    "houseNo": "2009242CT",
+    "totalPrice": 4280.0,
+    "updatedDate": "2025-04-21 10:58:56",
+    "shareURL": "https://sinyi.in/o/2009242CT/0/3",
+    "displayName": "科博臨路電梯邊間別墅"
+  },
+  {
+    "houseNo": "MS143789HB",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 10:59:01",
+    "shareURL": "https://sinyi.in/o/MS143789HB/0/3",
+    "displayName": "迎好事絕佳採光四房雙車"
+  },
+  {
+    "houseNo": "2012457CT",
+    "totalPrice": 888.0,
+    "updatedDate": "2025-04-21 10:59:04",
+    "shareURL": "https://sinyi.in/o/2012457CT/0/3",
+    "displayName": "正國安國小首購優質溫馨三房美屋"
+  },
+  {
+    "houseNo": "MS142697HB",
+    "totalPrice": 1598.0,
+    "updatedDate": "2025-04-21 10:59:09",
+    "shareURL": "https://sinyi.in/o/MS142697HB/0/3",
+    "displayName": "中科雲世紀兩房雙車出價談"
+  },
+  {
+    "houseNo": "JS92947HB",
+    "totalPrice": 1328.0,
+    "updatedDate": "2025-04-21 10:59:11",
+    "shareURL": "https://sinyi.in/o/JS92947HB/0/3",
+    "displayName": "五權車站漂亮3房車位"
+  },
+  {
+    "houseNo": "2006552CT",
+    "totalPrice": 2180.0,
+    "updatedDate": "2025-04-21 10:59:13",
+    "shareURL": "https://sinyi.in/o/2006552CT/0/3",
+    "displayName": "惠宇原山大三房平車採光戶（專任）"
+  },
+  {
+    "houseNo": "JS93114HB",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 10:59:29",
+    "shareURL": "https://sinyi.in/o/JS93114HB/0/3",
+    "displayName": "軍功商圈輕屋齡精裝3房"
+  },
+  {
+    "houseNo": "MS142611HB",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:59:42",
+    "shareURL": "https://sinyi.in/o/MS142611HB/0/3",
+    "displayName": "東山凱旋美3房"
+  },
+  {
+    "houseNo": "2009679CT",
+    "totalPrice": 1588.0,
+    "updatedDate": "2025-04-21 10:59:56",
+    "shareURL": "https://sinyi.in/o/2009679CT/0/3",
+    "displayName": "獨家！晴光花園低總價三房平車"
+  },
+  {
+    "houseNo": "JS93670HB",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 10:59:58",
+    "shareURL": "https://sinyi.in/o/JS93670HB/0/3",
+    "displayName": "黎明/向上商圈視野景觀美宅二房"
+  },
+  {
+    "houseNo": "MS141651HB",
+    "totalPrice": 1068.0,
+    "updatedDate": "2025-04-21 10:59:59",
+    "shareURL": "https://sinyi.in/o/MS141651HB/0/3",
+    "displayName": "大俊國高樓層兩房含車"
+  },
+  {
+    "houseNo": "JS92970HB",
+    "totalPrice": 1498.0,
+    "updatedDate": "2025-04-21 11:00:02",
+    "shareURL": "https://sinyi.in/o/JS92970HB/0/3",
+    "displayName": "專!中山醫旁大兩房獨立車位"
+  },
+  {
+    "houseNo": "2002926CT",
+    "totalPrice": 698.0,
+    "updatedDate": "2025-04-21 11:00:04",
+    "shareURL": "https://sinyi.in/o/2002926CT/0/3",
+    "displayName": "水湳全新整理兩房美廈"
+  },
+  {
+    "houseNo": "RS79278HB",
+    "totalPrice": 1698.0,
+    "updatedDate": "2025-04-21 11:00:05",
+    "shareURL": "https://sinyi.in/o/RS79278HB/0/3",
+    "displayName": "文心景觀三房樓中樓"
+  },
+  {
+    "houseNo": "MS143787HB",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 11:00:15",
+    "shareURL": "https://sinyi.in/o/MS143787HB/0/3",
+    "displayName": "迎好事｜樹海四房雙平車"
+  },
+  {
+    "houseNo": "RB04087GH",
+    "totalPrice": 5980.0,
+    "updatedDate": "2025-04-21 11:00:28",
+    "shareURL": "https://sinyi.in/o/RB04087GH/0/3",
+    "displayName": "台中帝寶高樓三房雙車戶"
+  },
+  {
+    "houseNo": "WS44282HB",
+    "totalPrice": 2280.0,
+    "updatedDate": "2025-04-21 11:00:41",
+    "shareURL": "https://sinyi.in/o/WS44282HB/0/3",
+    "displayName": "EZ6鄉林文心寶藏起家厝"
+  },
+  {
+    "houseNo": "MS143782HB",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 11:00:48",
+    "shareURL": "https://sinyi.in/o/MS143782HB/0/3",
+    "displayName": "大城迎好事機捷特區夢幻四房雙車"
+  },
+  {
+    "houseNo": "JS94216HB",
+    "totalPrice": 1458.0,
+    "updatedDate": "2025-04-21 11:00:49",
+    "shareURL": "https://sinyi.in/o/JS94216HB/0/3",
+    "displayName": "震後低自備三房平車裝潢戶"
+  },
+  {
+    "houseNo": "JS94342HB",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:00:49",
+    "shareURL": "https://sinyi.in/o/JS94342HB/0/3",
+    "displayName": "精科精裝小豪宅"
+  },
+  {
+    "houseNo": "JS93918HB",
+    "totalPrice": 2388.0,
+    "updatedDate": "2025-04-21 11:01:10",
+    "shareURL": "https://sinyi.in/o/JS93918HB/0/3",
+    "displayName": "海悅豪景大墩學區4房平車"
+  },
+  {
+    "houseNo": "S2839711PA",
+    "totalPrice": 1980.0,
+    "updatedDate": "2025-04-21 11:01:42",
+    "shareURL": "https://sinyi.in/o/S2839711PA/0/3",
+    "displayName": "中港TheOne七期最強朝南無敵美景高樓"
+  },
+  {
+    "houseNo": "2008188CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:01:54",
+    "shareURL": "https://sinyi.in/o/2008188CT/0/3",
+    "displayName": "凱旋天下三房美廈"
+  },
+  {
+    "houseNo": "2008723CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:02:04",
+    "shareURL": "https://sinyi.in/o/2008723CT/0/3",
+    "displayName": "屋主長期持有｜東山商圈3%超低公設三面採光全新整理超大3房"
+  },
+  {
+    "houseNo": "2003675CT",
+    "totalPrice": 998.0,
+    "updatedDate": "2025-04-21 11:02:06",
+    "shareURL": "https://sinyi.in/o/2003675CT/0/3",
+    "displayName": "北區麗園道視野精美3房"
+  },
+  {
+    "houseNo": "2009653CT",
+    "totalPrice": 1499.0,
+    "updatedDate": "2025-04-21 11:02:08",
+    "shareURL": "https://sinyi.in/o/2009653CT/0/3",
+    "displayName": "春風得意三房平車"
+  },
+  {
+    "houseNo": "2002297CT",
+    "totalPrice": 1320.0,
+    "updatedDate": "2025-04-21 11:02:09",
+    "shareURL": "https://sinyi.in/o/2002297CT/0/3",
+    "displayName": "春虹東京市2房平車"
+  },
+  {
+    "houseNo": "1971527CT",
+    "totalPrice": 780.0,
+    "updatedDate": "2025-04-21 11:02:11",
+    "shareURL": "https://sinyi.in/o/1971527CT/0/3",
+    "displayName": "教育大學採光三房美廈"
+  },
+  {
+    "houseNo": "2014571CT",
+    "totalPrice": 2058.0,
+    "updatedDate": "2025-04-21 11:02:21",
+    "shareURL": "https://sinyi.in/o/2014571CT/0/3",
+    "displayName": "獨家近中國醫BOT全新未入住四房河岸視野平車"
+  },
+  {
+    "houseNo": "2012106CT",
+    "totalPrice": 1580.0,
+    "updatedDate": "2025-04-21 11:02:24",
+    "shareURL": "https://sinyi.in/o/2012106CT/0/3",
+    "displayName": "幸福森林視野三房平車"
+  },
+  {
+    "houseNo": "2015306CT",
+    "totalPrice": 1500.0,
+    "updatedDate": "2025-04-21 11:02:24",
+    "shareURL": "https://sinyi.in/o/2015306CT/0/3",
+    "displayName": "獨家！崇德文心捷運2+1房車位"
+  },
+  {
+    "houseNo": "2015473CT",
+    "totalPrice": 1938.0,
+    "updatedDate": "2025-04-21 11:02:24",
+    "shareURL": "https://sinyi.in/o/2015473CT/0/3",
+    "displayName": "洲際W兩房平車"
+  },
+  {
+    "houseNo": "2005854CT",
+    "totalPrice": 2050.0,
+    "updatedDate": "2025-04-21 11:02:31",
+    "shareURL": "https://sinyi.in/o/2005854CT/0/3",
+    "displayName": "親家新匯高樓三房雙車"
+  },
+  {
+    "houseNo": "2012023CT",
+    "totalPrice": 1088.0,
+    "updatedDate": "2025-04-21 11:02:31",
+    "shareURL": "https://sinyi.in/o/2012023CT/0/3",
+    "displayName": "中央公園水湳經貿最夯｜入門玄關室內28坪屋況佳大三房"
+  },
+  {
+    "houseNo": "2007819CT",
+    "totalPrice": 1647.0,
+    "updatedDate": "2025-04-21 11:02:46",
+    "shareURL": "https://sinyi.in/o/2007819CT/0/3",
+    "displayName": "中山醫捷運站~鑫園BOX三房平車景觀宅"
+  },
+  {
+    "houseNo": "2008954CT",
+    "totalPrice": 1098.0,
+    "updatedDate": "2025-04-21 11:02:52",
+    "shareURL": "https://sinyi.in/o/2008954CT/0/3",
+    "displayName": "北屯凱旋天下三房全新裝潢"
+  },
+  {
+    "houseNo": "6696JY",
+    "totalPrice": 2488.0,
+    "updatedDate": "2025-04-21 10:55:37",
+    "shareURL": "https://sinyi.in/o/6696JY/0/3",
+    "displayName": "太原ＹＥＳ－Ｅ２極佳格局"
+  },
+  {
+    "houseNo": "2017894CT",
+    "totalPrice": 1198.0,
+    "updatedDate": "2025-04-21 11:01:44",
+    "shareURL": "https://sinyi.in/o/2017894CT/0/3",
+    "displayName": "光大國宅"
+  },
+  {
+    "houseNo": "2002212CT",
+    "totalPrice": 898.0,
+    "updatedDate": "2025-04-21 11:02:59",
+    "shareURL": "https://sinyi.in/o/2002212CT/0/3",
+    "displayName": "專任中科兩房平車朝南美裝潢"
+  },
+  {
+    "houseNo": "2002303CT",
+    "totalPrice": 1358.0,
+    "updatedDate": "2025-04-21 11:03:02",
+    "shareURL": "https://sinyi.in/o/2002303CT/0/3",
+    "displayName": "梅川鮮境三房車位"
+  },
+  {
+    "houseNo": "S2840279PA",
+    "totalPrice": 1868.0,
+    "updatedDate": "2025-04-21 11:03:22",
+    "shareURL": "https://sinyi.in/o/S2840279PA/0/3",
+    "displayName": "西屯逢甲最精華市中心【親家河南道】低總價"
+  },
+  {
+    "houseNo": "MS144078HB",
+    "totalPrice": 2298.0,
+    "updatedDate": "2025-04-21 10:58:13",
+    "shareURL": "https://sinyi.in/o/MS144078HB/0/3",
+    "displayName": "大城迎好事四房雙車"
+  }
+]
